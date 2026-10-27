@@ -1,0 +1,91 @@
+{
+  "firmware": "10.0.0.113(C00E100R101P1)",
+  "inputs": [
+    {
+      "path": "proprietary/system_ext/bin/vtservice",
+      "size": 14352,
+      "sha256": "80c62007d3649c14c919b7e396fcbbdccefc6a45a3230ed49b1a06fe12ea6426"
+    },
+    {
+      "path": "proprietary/system_ext/etc/init/init.vtservice.rc",
+      "size": 390,
+      "sha256": "9df51aa74b0ed175bcd008e29a9daf88060abeb36eb3bd5a593a66b7edbeb33f"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libcomutils.so",
+      "size": 27912,
+      "sha256": "2dd7ed68a69c173d31041b46d2de34a2ccef2eabafd7e5ec80ba104ec4f2ad13"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libimsma.so",
+      "size": 125336,
+      "sha256": "215300a96fc27de310858f8481906b787944267b8b44ff2d80cefe935fc8a151"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libimsma_adapt.so",
+      "size": 67728,
+      "sha256": "9c412807bc29529cd2a5987dd51ce2d8bb771d8b4cf2304e6de9941d4579dd89"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libimsma_rtp.so",
+      "size": 220056,
+      "sha256": "16917cbf05285e8637ee91c586d7b041c9791c32656f84a8768874e45957dce7"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libimsma_socketwrapper.so",
+      "size": 23656,
+      "sha256": "39c9aac9f31ecc63f37dc1ae73a717141cf665bc8499631d80c09f45cfdadaea"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libmtk_vt_service.so",
+      "size": 279112,
+      "sha256": "51b1a1aaebe43ba5c1d18ae7717b8f0d4795335492f836257c7c92e70d5ca841"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libmtk_vt_wrapper.so",
+      "size": 89632,
+      "sha256": "6955143026ee7b6858dfcbc900a06143233c42e22fe329c4646eb0c28f7b9f36"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libsignal.so",
+      "size": 18968,
+      "sha256": "963da611a7ad92de3d21a883f93e292648374b83b26766e9d04835a5b079adbe"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libsink.so",
+      "size": 226289,
+      "sha256": "8c2a09ed2b760a901b1f43789190315ed700da7786d36e255bdf166032874715"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libsource.so",
+      "size": 162752,
+      "sha256": "ab5f01d144603abf895aba8bcf115206a8dc25268e4c80f57c3c9b13f66ec595"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libvcodec_cap.so",
+      "size": 79680,
+      "sha256": "07459ac6fd4a064e8346299418c13083853ab07681cff5dafdcea915e0b11126"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libvcodec_capenc.so",
+      "size": 35432,
+      "sha256": "b4a02a3db68642428a69bbf262471e6e99698ff1386d1b7d20eab417a3f29ad9"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libvt_avsync.so",
+      "size": 22832,
+      "sha256": "8d33c56ec6462e40c6f7bb1677eee9775bb293e5edb150250fecb5c820aed314"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so",
+      "size": 44448,
+      "sha256": "6afe173c8ae59fba2bf7b974d96db403eeac480c52c99ac7925b8ba7969ff9a0"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so",
+      "size": 86048,
+      "sha256": "be6dc6a2203b78af2ccc72d255c964c195d898e56361c8c27234fc81f33694fa"
+    }
+  ],
+  "notice": "Exact RC3 build inputs. Some IMS files are derived by the integration tools; not every file exists in stock firmware. Personal ADB keys are excluded."
+}

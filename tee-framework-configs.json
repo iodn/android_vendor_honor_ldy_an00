@@ -1,0 +1,22 @@
+{
+  "scope": "Unmodified current configuration containers selected by stock kernel6.12; request-path dependency, not proven daemon startup fatal prerequisite. Staged only; not included in active image.",
+  "evidence": "artifacts/tee-native-config-callpath-review.txt",
+  "entries": [
+    {
+      "source": "system/etc/native_packages.xml",
+      "proprietary_path": "proprietary/system/etc/native_packages.xml",
+      "module": "honor_tee_native_packages_system",
+      "installed_path": "/system/etc/native_packages.xml",
+      "bytes": 6992,
+      "sha256": "288770066a567e156de5c79fde593e0d09ff5255afe30af2d0c927a7b780a4ca"
+    },
+    {
+      "source": "system_ext/etc/native_packages.xml",
+      "proprietary_path": "proprietary/system_ext/etc/native_packages.xml",
+      "module": "honor_tee_native_packages_system_ext",
+      "installed_path": "/system_ext/etc/native_packages.xml",
+      "bytes": 4512,
+      "sha256": "306522d388f09eba3579bac2d09b761a51d4453369c79160fd8dd442b3217b65"
+    }
+  ]
+}

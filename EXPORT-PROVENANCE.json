@@ -1,0 +1,26 @@
+{
+  "path": "vendor/honor/ldy_an00",
+  "revision": "470840ca7953200aecd1f657ed361db3351f1f6c",
+  "tree": "994bf5cf373c1814afa4f0ef38c411d39ce27dd5",
+  "excluded_inputs": [
+    "debug-adb-public-key.json",
+    "proprietary/system_ext/bin/vtservice",
+    "proprietary/system_ext/etc/init/init.vtservice.rc",
+    "proprietary/system_ext/lib64/libcomutils.so",
+    "proprietary/system_ext/lib64/libimsma.so",
+    "proprietary/system_ext/lib64/libimsma_adapt.so",
+    "proprietary/system_ext/lib64/libimsma_rtp.so",
+    "proprietary/system_ext/lib64/libimsma_socketwrapper.so",
+    "proprietary/system_ext/lib64/libmtk_vt_service.so",
+    "proprietary/system_ext/lib64/libmtk_vt_wrapper.so",
+    "proprietary/system_ext/lib64/libsignal.so",
+    "proprietary/system_ext/lib64/libsink.so",
+    "proprietary/system_ext/lib64/libsource.so",
+    "proprietary/system_ext/lib64/libvcodec_cap.so",
+    "proprietary/system_ext/lib64/libvcodec_capenc.so",
+    "proprietary/system_ext/lib64/libvt_avsync.so",
+    "proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so",
+    "proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so"
+  ],
+  "export": "Tracked source/configuration only; excluded proprietary inputs must be supplied separately."
+}

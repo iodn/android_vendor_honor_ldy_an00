@@ -1,0 +1,635 @@
+// Stock TEE integration; image/runtime qualification remains pending.
+soong_namespace {}
+
+package {
+    default_applicable_licenses: ["honor_ldy_an00_proprietary_license"],
+}
+
+license {
+    name: "honor_ldy_an00_proprietary_license",
+    license_kinds: ["legacy_proprietary"],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_libc_secshared",
+    stem: "libc_secshared",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/system/lib64/libc_secshared.so"],
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: ["libc++"],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_libteec_hidl",
+    stem: "vendor.honor.hardware.libteec@3.0",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/system/lib64/vendor.honor.hardware.libteec@3.0.so"],
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+        "libc++",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_libteec_ndk",
+    stem: "vendor.honor.hardware.libteec-V2-ndk",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/system/lib64/vendor.honor.hardware.libteec-V2-ndk.so"],
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libbinder_ndk",
+        "android.hardware.common-V2-ndk",
+        "libc++",
+    ],
+}
+
+cc_prebuilt_binary {
+    name: "honor_tee_auth_daemon",
+    stem: "tee_auth_daemon",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/system_ext/bin/tee_auth_daemon"],
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libcutils",
+        "liblog",
+        "libhardware",
+        "honor_libc_secshared",
+        "libutils",
+        "libtinyxml2",
+        "libcrypto",
+        "libhidlbase",
+        "libhidltransport",
+        "libhidlmemory",
+        "libhwbinder",
+        "libbinder",
+        "libbinder_ndk",
+        "honor_libteec_hidl",
+        "honor_libteec_ndk",
+        "libc++",
+    ],
+}
+
+// Stock binary containers read by tee_auth_daemon during IInitializeContext.
+// Despite the filename suffix, these are copied as data, not parsed as XML.
+prebuilt_etc {
+    name: "honor_tee_native_packages_system",
+    src: "proprietary/system/etc/native_packages.xml",
+    filename: "native_packages.xml",
+}
+
+prebuilt_etc {
+    name: "honor_tee_native_packages_system_ext",
+    system_ext_specific: true,
+    src: "proprietary/system_ext/etc/native_packages.xml",
+    filename: "native_packages.xml",
+}
+
+// Exact reviewed stock VT closure; not selected by the product.
+cc_prebuilt_library_shared {
+    name: "honor_ims_libmtk_vt_wrapper",
+    stem: "libmtk_vt_wrapper",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/libmtk_vt_wrapper.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libandroid_runtime",
+        "libbinder",
+        "libutils",
+        "libcutils",
+        "libnativehelper",
+        "libfmq",
+        "libbinder_ndk",
+        "honor_ims_vendor_mediatek_hardware_videotelephony_1_0",
+        "honor_ims_vendor_mediatek_hardware_videotelephony-V1-ndk",
+        "libhidlbase",
+        "libhidltransport",
+        "libui",
+        "libgui",
+        "libmedia",
+        "honor_ims_libvcodec_cap",
+        "liblog",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_libimsma",
+    stem: "libimsma",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/libimsma.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libbinder",
+        "libcutils",
+        "libgui",
+        "libmedia",
+        "libstagefright",
+        "libstagefright_foundation",
+        "libui",
+        "libutils",
+        "honor_ims_libsink",
+        "honor_ims_libsource",
+        "honor_ims_libvcodec_cap",
+        "honor_ims_libimsma_rtp",
+        "honor_ims_libcomutils",
+        "liblog",
+        "honor_ims_libsignal",
+        "libnetd_client",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_libimsma_socketwrapper",
+    stem: "libimsma_socketwrapper",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/libimsma_socketwrapper.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libbinder",
+        "libmedia",
+        "libutils",
+        "libcutils",
+        "libstagefright",
+        "libstagefright_foundation",
+        "libnetd_client",
+        "liblog",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_libimsma_rtp",
+    stem: "libimsma_rtp",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/libimsma_rtp.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libbinder",
+        "libmedia",
+        "libutils",
+        "libcutils",
+        "libstagefright",
+        "libstagefright_foundation",
+        "honor_ims_libimsma_socketwrapper",
+        "honor_ims_libvcodec_cap",
+        "honor_ims_libimsma_adapt",
+        "liblog",
+        "honor_ims_libsignal",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_libimsma_adapt",
+    stem: "libimsma_adapt",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/libimsma_adapt.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "liblog",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_libmtk_vt_service",
+    stem: "libmtk_vt_service",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/libmtk_vt_service.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libandroid_runtime",
+        "libbinder",
+        "libutils",
+        "libcutils",
+        "libnativehelper",
+        "libui",
+        "libgui",
+        "libmedia",
+        "libbase",
+        "libfmq",
+        "libbinder_ndk",
+        "honor_ims_vendor_mediatek_hardware_videotelephony_1_0",
+        "honor_ims_vendor_mediatek_hardware_videotelephony-V1-ndk",
+        "libhidlbase",
+        "libhidltransport",
+        "honor_ims_libimsma",
+        "honor_ims_libsource",
+        "honor_ims_libimsma_rtp",
+        "honor_ims_libvt_avsync",
+        "libstagefright_foundation",
+        "honor_ims_libvcodec_cap",
+        "liblog",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_binary {
+    name: "honor_vtservice",
+    stem: "vtservice",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/bin/vtservice"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libbinder",
+        "libutils",
+        "libcutils",
+        "liblog",
+        "honor_ims_libmtk_vt_service",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    init_rc: ["proprietary/system_ext/etc/init/init.vtservice.rc"],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_vendor_mediatek_hardware_videotelephony_1_0",
+    stem: "vendor.mediatek.hardware.videotelephony@1.0",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libcutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_vendor_mediatek_hardware_videotelephony-V1-ndk",
+    stem: "vendor.mediatek.hardware.videotelephony-V1-ndk",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libbinder_ndk",
+        "android.hardware.common-V2-ndk",
+        "android.hardware.common.fmq-V1-ndk",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_libvcodec_cap",
+    stem: "libvcodec_cap",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/libvcodec_cap.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libui",
+        "libcutils",
+        "libutils",
+        "libbinder",
+        "libexpat",
+        "liblog",
+        "honor_ims_libvcodec_capenc",
+        "libstagefright_omx_utils",
+        "libstagefright_foundation",
+        "libion",
+        "android.hardware.graphics.bufferqueue@2.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_libsource",
+    stem: "libsource",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/libsource.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libbinder",
+        "libcutils",
+        "libgui",
+        "libmedia",
+        "libstagefright",
+        "libstagefright_foundation",
+        "libmedia_omx",
+        "libui",
+        "libutils",
+        "libcamera_client",
+        "honor_ims_libcomutils",
+        "honor_ims_libvcodec_cap",
+        "liblog",
+        "honor_ims_libsignal",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_libcomutils",
+    stem: "libcomutils",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/libcomutils.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libcutils",
+        "libstagefright_foundation",
+        "libutils",
+        "libstagefright",
+        "libmedia",
+        "liblog",
+        "libhidlbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_libsignal",
+    stem: "libsignal",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/libsignal.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libcutils",
+        "libutils",
+        "libstagefright_foundation",
+        "liblog",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_libvt_avsync",
+    stem: "libvt_avsync",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/libvt_avsync.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libbinder",
+        "libutils",
+        "libcutils",
+        "liblog",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_libvcodec_capenc",
+    stem: "libvcodec_capenc",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/libvcodec_capenc.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "liblog",
+        "libion",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_ims_libsink",
+    stem: "libsink",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    enabled: false,
+    arch: {
+        arm64: {
+            enabled: true,
+            srcs: ["proprietary/system_ext/lib64/libsink.so"],
+        },
+    },
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    shared_libs: [
+        "libaudioclient_shim",
+        "libbinder",
+        "libcutils",
+        "libgui",
+        "libmedia",
+        "libstagefright",
+        "libstagefright_foundation",
+        "libui",
+        "libutils",
+        "honor_ims_libcomutils",
+        "honor_ims_libvcodec_cap",
+        "honor_ims_libvt_avsync",
+        "liblog",
+        "libmedia_omx",
+        "libaudioclient",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}

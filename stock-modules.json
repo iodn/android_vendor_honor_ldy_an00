@@ -1,0 +1,2649 @@
+{
+  "scope": "unaltered stock module reference; no rebuild or vermagic patch",
+  "modules": [
+    {
+      "path": "system_dlkm/lib/modules/6lowpan.ko",
+      "size": 45906,
+      "sha256": "0b88c4993eb4194e00842a87cc6e73cc2486907189d0a802a78c890a31482e8f",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/8021q.ko",
+      "size": 83170,
+      "sha256": "8074197b5cb1161a4c5a54ae7b70e4646fabb45822709ea982a67c27c34e9a29",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/9pnet.ko",
+      "size": 183770,
+      "sha256": "ac1a1beb826c16bb6d3128948a43cb9dff96a374a8d56ee50551fa171ed132f8",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/9pnet_fd.ko",
+      "size": 43890,
+      "sha256": "1e5f736a453cc3cb722417649953139b098546283d430fb278388e3d838d235c",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/aqc111.ko",
+      "size": 52378,
+      "sha256": "e25340b3c2f8adecef3a989e55beb79f973cc4f1626e828d0b4cb3d6c08e6ba6",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/asix.ko",
+      "size": 104634,
+      "sha256": "16b460551fffa7039bcb2ef23c16b42d460547fc9b1b4bfe60ecd300c9be4285",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/ax88179_178a.ko",
+      "size": 79250,
+      "sha256": "a74eb67d8c1bb4dbdf92a3dc2cafe39effc888676d2b6a8fb27ab854e0842223",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/bluetooth.ko",
+      "size": 1324074,
+      "sha256": "88abf740255288121bcdc69878758ed6f075edd8e607288fe97897b5d2ea46c6",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/bsd_comp.ko",
+      "size": 25586,
+      "sha256": "2a68bf49b266f0fb3fedae971b054f7f00fa064ae496b96fad4d908cc1305822",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/btbcm.ko",
+      "size": 49570,
+      "sha256": "afb1c8e9172f6f5108011eae30a5a86044febea206b517be03cdbf9f83d7beb0",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/btqca.ko",
+      "size": 48642,
+      "sha256": "ef64b01ba7ad1e39fcafa8035c503f406d177a1e6bca41a6c14ba18ca892ac5a",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/btsdio.ko",
+      "size": 33578,
+      "sha256": "90ec869f9947f0001a9cf9e4e2d1ed17f84205f1732f4baed02624f403397970",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/can-bcm.ko",
+      "size": 59970,
+      "sha256": "f74a28082fc5a177a8b94c993d26253b947d0ac972edb1e02bcc5d364c8e8a3b",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/can-dev.ko",
+      "size": 93690,
+      "sha256": "3fd067d0afc1859f075c05f391250c6ef13f49d3b797cf40f17bc98d65c8763a",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/can-gw.ko",
+      "size": 48290,
+      "sha256": "fadfa08eb09baa3d811be399d60fb2fc9e05a3b24e1ea87623bfbad7341d87e2",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/can-raw.ko",
+      "size": 48402,
+      "sha256": "4498677c21d30a7995c912c51334657d06dd2ebf5394e8345f633d2589ab15a6",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/can.ko",
+      "size": 57586,
+      "sha256": "05d9199a3dac009ef75f19b7e67f8c621e278385e368870d4604e38463633de7",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/cctrng.ko",
+      "size": 28786,
+      "sha256": "eab1dd39e22b637b4ab3b6b8b9c7ce3bd069806f2a396fc1cb1db2545d192161",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/cdc-acm.ko",
+      "size": 83210,
+      "sha256": "9bbaf20e57c215642f950577d609779781bac83dac35585848d229ce8998bc84",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/cdc_eem.ko",
+      "size": 21866,
+      "sha256": "42a7d00345e6dce8c2c8f21b21bd9b506217c589b15b807ed873a1393497c558",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/cdc_ether.ko",
+      "size": 35786,
+      "sha256": "d7e80b8ad73f184ad802bc85477816fcf156995e9562c97c0c1a80273fff24c8",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/cdc_ncm.ko",
+      "size": 66210,
+      "sha256": "8ebd7c31828c9eb9fc04821828c4086bbd80d8afabe19581ae550b8fbdd42aa0",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/clk-gate_test.ko",
+      "size": 67802,
+      "sha256": "065269facd7289be67b1b12413de90df29950588d0f7164673236f86d196d608",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/clk-test.ko",
+      "size": 230978,
+      "sha256": "481ce016533c97f0f091730ea29f2686cf71ff54d44bc096220714a32ee5cf87",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/clk_kunit_helpers.ko",
+      "size": 19290,
+      "sha256": "596fe6b758f0ade0c6144d45102bf3c237ede0ec990eb54b4999d2077e294759",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/dev_addr_lists_test.ko",
+      "size": 39426,
+      "sha256": "2d5d3eb2d0ea467cd92f13d254e3f9ed442c69486ce3ec1152949002dff94333",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/ext4-inode-test.ko",
+      "size": 18258,
+      "sha256": "d14d31685e29720aa5ae1daa69faea4b038061cd9bd1506b94dd3805d35d0a43",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/fat_test.ko",
+      "size": 20282,
+      "sha256": "e4ba55d885315679f40e4d1ea708e6f2a6ad64d0fcbcb2b6e85362bad067132a",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/ftdi_sio.ko",
+      "size": 165826,
+      "sha256": "ae4a640955cf7e0a7b3888bbcf06b432c6ff02d9e103867422d492caa92afb7b",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/gnss.ko",
+      "size": 32634,
+      "sha256": "2481955b0b688a4fb44ea302b3ecda4937ca0eb6778b10d81e7bac744883741a",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/gzvm.ko",
+      "size": 117978,
+      "sha256": "43b83b9b3139a43e6c899a9595bc8d5047a63d234593a0726cca3835afd1cb4f",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/hci_uart.ko",
+      "size": 196378,
+      "sha256": "2ced6a6ab747c6b2151579663fb4032f76a48aac9f577a7868e307aecbacc808",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/hid-uclogic-test.ko",
+      "size": 19322,
+      "sha256": "02b653dfc657821f45a36f390a9936466ac43fbba5dfbdf15dc42ebe613f28b0",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/hidp.ko",
+      "size": 83938,
+      "sha256": "d9b24bbf5c90d80ced5d2ed01370bea8e5656bb1f9e1d3d81321ec21ed503120",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/ieee802154.ko",
+      "size": 295338,
+      "sha256": "2db793f8a0abc918ca38de50f47215e97271dfd24816f5c882ba4d659d01f39a",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/ieee802154_6lowpan.ko",
+      "size": 51362,
+      "sha256": "ebd666055a003701d40f1f9130f0ad824404d3cf1a267b82133a9b634a64827f",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/ieee802154_socket.ko",
+      "size": 52098,
+      "sha256": "b5cb4de3cb50ff07845c2f62def4428027f16c1f9a3bb4f76eb1cd04a172f260",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/iio-test-format.ko",
+      "size": 65018,
+      "sha256": "827fcd21215169ccf32e45320e2d6aeccb773e43ac4d35944ddfe4c3b37aba91",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/input_test.ko",
+      "size": 27994,
+      "sha256": "d437fe827fc9dfc7306dcd086c5ba322ab1f3abac7814bdcc58038f64f933abd",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/kheaders.ko",
+      "size": 4325898,
+      "sha256": "ced7cef0f161b07d0e1d6f0aad86e4d3e2c5fedaaabcbfba617cb408a5a6aa51",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/kunit-example-test.ko",
+      "size": 36082,
+      "sha256": "12d7223614307e863de981767f6080396bfad04e040b23ceb1e53ffa65de6507",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/kunit-test.ko",
+      "size": 97514,
+      "sha256": "49be0f8e327df8f03731179f838b9823b16203ad4b604c6f30a6894293e77f53",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/kunit.ko",
+      "size": 150682,
+      "sha256": "1dab701f1b293d7e99d10c082b3c6869d50d71309ca99e8e252a6ef3502eb21e",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/l2tp_core.ko",
+      "size": 121114,
+      "sha256": "978819e507dd8ea6e7edc8f5e4926142ca1c84acb438cd836fc823558e390e71",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/l2tp_ppp.ko",
+      "size": 53754,
+      "sha256": "c98084173c21813dd286de3d383e514dbe0b04f882fc347c13ae75cba6cc9367",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/lib_test.ko",
+      "size": 17394,
+      "sha256": "34b0f16ef58413217461adb475c3c0afafdd62aac6387b11e4e721cafe9889f7",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/libarc4.ko",
+      "size": 13346,
+      "sha256": "0ee9f3128d6c6a473e8638e47fd8c60975295a43ed0af31cf841d3f915aae0ce",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/mac802154.ko",
+      "size": 280610,
+      "sha256": "8182e0cf1bc2948d8117629d57db24a689ff9b5e0b2b9b161aee950e6320fd66",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/macsec.ko",
+      "size": 128410,
+      "sha256": "950259ce7d0a001fc09c22e290915e4d8f6007c3d45fb142c1bbc423a1a7f214",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/mii.ko",
+      "size": 23298,
+      "sha256": "8e65160e57db394f242ff4246e9844fde559d32f13fc6e82091cb652806b2c3c",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/netfs.ko",
+      "size": 340570,
+      "sha256": "2870e724082996ea4c4fc63670cd78b1dbcbfe6d8d19988909f73b30a4ea3cc5",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/nfc.ko",
+      "size": 211626,
+      "sha256": "47093c7c03a89109c44f1d59ea03c4374267185ca75fc76002d329f9735c74f2",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/nhc_dest.ko",
+      "size": 13970,
+      "sha256": "f40f946f9cd0810561a5aaf19d786c4215bb3587b7adf64d2039cb5e1c7f1ee8",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/nhc_fragment.ko",
+      "size": 13970,
+      "sha256": "948d17d57245ab481ccd7fac7cebce056ec8b5128400262dfe82692fcf9c35a3",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/nhc_hop.ko",
+      "size": 13970,
+      "sha256": "7d3bae48b54e7e0fd951bc9b7615e8c2c8cc085ffb2a336158132a5e1bbca283",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/nhc_ipv6.ko",
+      "size": 13970,
+      "sha256": "848546ffb21f8d17a43ff8d70570252288827fb9dde35572bacf3e86d3f0e01d",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/nhc_mobility.ko",
+      "size": 13970,
+      "sha256": "a27a75c7a13231c27e39d35950fc590937103a16ffd9eaf5603a8cbd4e5012cf",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/nhc_routing.ko",
+      "size": 13970,
+      "sha256": "d996ede223837df8d04e6d524815d9c293b793a432dfc5f9a4e9133bfa1c9e7b",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/nhc_udp.ko",
+      "size": 17322,
+      "sha256": "ffaa19753ca6172ed6e78f8543daae114b35777ff44b9c3f03ffa42df7e8850f",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/of_kunit_helpers.ko",
+      "size": 14202,
+      "sha256": "94bdb5e4cf7e619231d1333b5cc8d16535da32b1a12557a042d9097c5692feb4",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/open-dice.ko",
+      "size": 20754,
+      "sha256": "a7ed39c138bcdc3f554c781aadccd8795a3df9efbc5a5cc59c86efd496e2ea7e",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/platform-test.ko",
+      "size": 37210,
+      "sha256": "c6c83868fab6ec5d943e4e48cfec3a4c7512651b2eb98a560b43441712fade23",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/ppp_deflate.ko",
+      "size": 27370,
+      "sha256": "70e84904b379b4335e9fe8649f01fe42fb1cda693edb261ba76a4a0652b4b5ca",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/ppp_generic.ko",
+      "size": 97098,
+      "sha256": "d137cba365adf5571d2cdeb2dafb1c87616751d2f550df6818238ff904ef375e",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/ppp_mppe.ko",
+      "size": 29506,
+      "sha256": "c0801958e0f0dfd3a2406b06c395b5f9a03ea49a5cd890b33f309ae6776a086f",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/pppox.ko",
+      "size": 21530,
+      "sha256": "6d51c17cb96df770819b9daa12d2228bcc647315c1058352d5824f8335122b34",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/pps_core.ko",
+      "size": 41546,
+      "sha256": "7accae1e4bc94c2ebc2333fbb212b5fc562f7ba503060320e2a5421ab52a92db",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/pptp.ko",
+      "size": 38346,
+      "sha256": "0cc769f272d4235e152741bd998f96a7cad927850459aad334be03f665860865",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/ptp.ko",
+      "size": 83714,
+      "sha256": "e0f74b5930b79515c2feb416cea1412d82f7534685e68c5d107d148871f25124",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/ptp_kvm.ko",
+      "size": 20834,
+      "sha256": "aecfa43d93a487df28a724927bfadd8c2d64e83ea771b27a4467443a5aeb24c4",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/pwrseq-core.ko",
+      "size": 46066,
+      "sha256": "f533058b70bc444b6e9fd322efc8af2a0cc24ca24baa23a10aad78b9095d0d04",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/r8152.ko",
+      "size": 281930,
+      "sha256": "3aba33dc4725e1c285697d53a1c939b81827365fc49827e68a91a0cfbea57857",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/r8153_ecm.ko",
+      "size": 20538,
+      "sha256": "462d57a314a2b67a26a82fcd016da35b64a65875542e3db7bc59b9e9e12ea723",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/regmap-kunit.ko",
+      "size": 210130,
+      "sha256": "69744b80449d4b578597e449986bd4ab8c765a3331612cc8c9e0fa4ee26d5515",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/regmap-ram.ko",
+      "size": 16730,
+      "sha256": "5d359c1144b8f0386113407497ce89111304a63ab7bcf000bfdb542cce0bf8ba",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/regmap-raw-ram.ko",
+      "size": 17794,
+      "sha256": "e2828908d94ccd1c0f394557f0b81a3f62eb13d08fc50581d2959caceaf512f3",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/rfcomm.ko",
+      "size": 152002,
+      "sha256": "f4e23dcaf946dbdfe1eb23e9d547c610b2abdda0a29169d24346da957d9b7620",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/rfkill.ko",
+      "size": 64122,
+      "sha256": "9fb768ca7967003ebe8eb3be0b09526f6e959ebe4f68e3878839e03ba39e9421",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/rtl8150.ko",
+      "size": 43354,
+      "sha256": "a2113bd60d38ae2d4a29c29335320f53736206e17dc3eea548bb16160f57855a",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/rust_binder.ko",
+      "size": 567586,
+      "sha256": "3574a3acd4420fbf3b5e5249b687b954c07442ff646f488583ef344c9527ca2d",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/slcan.ko",
+      "size": 40218,
+      "sha256": "5ef8cd4c2bed796dbead97c723bb0c5c7d13c5a94055d1fccc29b88cfedd82d2",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/slhc.ko",
+      "size": 25106,
+      "sha256": "66fe6999947848a95392c33e56662a454b8b82c4a904f2d66820aaa9d95393ba",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/soc-topology-test.ko",
+      "size": 59762,
+      "sha256": "e4a777fd9d49e847b2245fa199cffcd69aa0154a70871c0d170f0e27783d6a23",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/soc-utils-test.ko",
+      "size": 18858,
+      "sha256": "a8192e375ba88aca4f32f9730ce23b60a1ef2e3bdb8da0d92dcf073e8d55d618",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/time_test.ko",
+      "size": 16842,
+      "sha256": "c77bb453a71739e918aed31fc9eb466a820b2b423d74f656c1e13e1f9aecf66d",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/tipc.ko",
+      "size": 724090,
+      "sha256": "af878af29b68b51857819a5500a933ecc144a72e7f6b8a8932aeac6188b31553",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/tipc_diag.ko",
+      "size": 16826,
+      "sha256": "cd8b070aec7eae7311cc89f8bc9a0768d00e492fe0e48a7752a914e528c634cc",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/tls.ko",
+      "size": 172426,
+      "sha256": "aa91bbe1b710c8bbaa3db746d4ed7914679757ca247f1103cced5c4f8ecb8d7f",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/usbmon.ko",
+      "size": 84066,
+      "sha256": "cef4a5441bb7db70db28de83f09af085b342f7bfe7a07a671f4984289f678d82",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/usbnet.ko",
+      "size": 92490,
+      "sha256": "9d7d2d87387432f253591c0d17a511b1177a5de459b46ed65fd755cc6bed6029",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/usbserial.ko",
+      "size": 98914,
+      "sha256": "925a99529ad1fd50dcb646524727985fc7039fb6881d43448eba92014679b104",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/vcan.ko",
+      "size": 22298,
+      "sha256": "f3488c724f8a588a9fcc0c3033f1d6fbcf09bd485d1faa8b4cba632985ea991f",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/vcpu_stall_detector.ko",
+      "size": 23754,
+      "sha256": "e00268c52d32140c63321ab0955c7f354c8becad521f0e6bf62367d1cab35017",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/virtio_balloon.ko",
+      "size": 50938,
+      "sha256": "e04f05ff2ea3fe950393e7a15a5f6a7f0755777f3115fd328127c9800b50bc39",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/virtio_blk.ko",
+      "size": 58458,
+      "sha256": "553cfcee2f629fe3a20026c2d7bb11c18ca40387e3436e49458981dff8499f0f",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/virtio_console.ko",
+      "size": 75474,
+      "sha256": "ded21cf2fa8ace5135eef019d10b763dd2c55326dab16250838d0998179bae55",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/virtio_pci.ko",
+      "size": 77242,
+      "sha256": "46b9c50602f4edbd9f1070ee6fe659cce3159d4e9412f362d661d8cc6d34d421",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/virtio_pci_legacy_dev.ko",
+      "size": 24226,
+      "sha256": "5b556a803a882d2696fcdf803023e1e5708ff807207f3e65104836d19383b58d",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/virtio_pci_modern_dev.ko",
+      "size": 36346,
+      "sha256": "44db18f94406a6f8164b3f7629ba124466aa835633dc33c63c1742905e4b41e8",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/vmw_vsock_virtio_transport.ko",
+      "size": 47226,
+      "sha256": "b691ec3bef6a56f19479371666b4b0220c31800a97937694ae5cdd0a5a4befe8",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/wwan.ko",
+      "size": 56178,
+      "sha256": "0353cdcd6ba9371076fc9a8c99139ccd7bbffa39b9f94cdab4173c8e0cabbdda",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/zram.ko",
+      "size": 77274,
+      "sha256": "58693ebb1f67ad41a6036832bbd8501d67734bdb56913dddefb8bf99679a5726",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "system_dlkm/lib/modules/zsmalloc.ko",
+      "size": 62066,
+      "sha256": "3faaaf82e0ae36f27bc10706d498fb4b031d92de4f08939e9b2117671affdbf8",
+      "vermagic": "6.12.38-android16-5-g4b3671e1f5b7-abogki460618149-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/activity_recognition.ko",
+      "size": 47792,
+      "sha256": "e3ad60996bafdcdb66300eedfab8c2845c3e07e3acb53aa8d329a0d7422da557",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/adsp-v3.ko",
+      "size": 39080,
+      "sha256": "14f7aeaeb6d334c6d87dcf5b224e21ed07de22a4bd69adc584df66750748968b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/adsp_misc.ko",
+      "size": 28072,
+      "sha256": "fadf69d24a86f8191289d998bb4d19c6afa064d77a08d81c75d04a35bf649196",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/adsp_shared_mem.ko",
+      "size": 16104,
+      "sha256": "39be2924fadb5fd2b747c2d58ce09afd8bc0129bb30d04d7167e4ec779333ba9",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ak7316.ko",
+      "size": 44168,
+      "sha256": "d3efde02aa1ff7a1416653da586e417172a59391450310a0e6cccccdc73723d7",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ak7316_tele.ko",
+      "size": 42344,
+      "sha256": "8edc037ea4ea9b845116ff4cde313529662298023fe082cad399243005a300da",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ak7377.ko",
+      "size": 41968,
+      "sha256": "16af4e9ffc784521751a9aab3b41ef658449a1813ec8f09a1efc726d11c53284",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/apu_aov.ko",
+      "size": 80624,
+      "sha256": "f3321c2b46e8b0c779f7c7c82e7655276f84647441457c1a22b2d7cb284d0ecb",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/apu_top.ko",
+      "size": 639872,
+      "sha256": "47c9835a7fe47da8f80c0d5c94dfd9f3454ae7b4c1b48bea2e68601c34e6ed76",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/apusys.ko",
+      "size": 3135120,
+      "sha256": "75331adbd6c3e07af2f8425fb8dff209bbaccf408728f1d91e22931658d4f82c",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/atf_logger.ko",
+      "size": 46672,
+      "sha256": "ebb6dfe73e7d4e20a429fd17f63d43c70e72cbc6863534def364001a75d196fa",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/audio_ipi.ko",
+      "size": 213232,
+      "sha256": "c05cce9e55f67cd28f3a1e01e7c1b48c75a3a7196b99d26ffc4f7f7f38aba9e4",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/aw3644.ko",
+      "size": 50424,
+      "sha256": "ca261a4b58574507f091bb778001f0d70ad478e81698850afc9ce8a0d06bbb9a",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/aw_haptic_hv.ko",
+      "size": 557440,
+      "sha256": "13407926c083302a39163238f5b0b62e68de0abf6453201e0605da1f7fb95005",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/backlight_cooling.ko",
+      "size": 17384,
+      "sha256": "b009638d3771f23045266c6b5c194769020d8f675fbb4b602d448c6fd81ada06",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/bluetooth.ko",
+      "size": 1327913,
+      "sha256": "75f45f46298571cc095e4bb3f0a736f1986c121a86821826be4bcfee5988a149",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/board_temp.ko",
+      "size": 22656,
+      "sha256": "976daac0ccce35620f0d7ce9fa5b71ae774bb029320e6996ed3069a0f0e7e4ad",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/btdsm.ko",
+      "size": 14480,
+      "sha256": "fc96198cd5ca3fc7f279eb0e2f77286c77c2787c4ad0b778357e4a52523c8cef",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/btmtk_uart_unify.ko",
+      "size": 1097592,
+      "sha256": "e6d507c813c0c87de58682510689a16f383c693789a3874dca67cb66b16837a3",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/c2k_usb.ko",
+      "size": 103328,
+      "sha256": "82c9832629cd04dd8093df73a8f642af5457bcd638a5f15cb4e9248237a35124",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/c2k_usb_f_via_atc.ko",
+      "size": 12808,
+      "sha256": "ece656f42468755903f163d6767aaf5431942eb7b7b8a0d6cacbff2d19ad5ba7",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/c2k_usb_f_via_ets.ko",
+      "size": 12808,
+      "sha256": "92313345bf86e2022de88b8234af477a64b5525f4a58a81ebc5d85bcf3bc1b24",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/c2k_usb_f_via_modem.ko",
+      "size": 12816,
+      "sha256": "30cc6d9ec5dd9dab53c86b2021af5dd59564ced7932e6283045da46d383d2c07",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/c2ps_perf_ioctl.ko",
+      "size": 28240,
+      "sha256": "2840a03e82c12631a6ede5ee55ff8cad1b91f0fcc4862f7fa4171122079d6207",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/camera_af_media.ko",
+      "size": 23824,
+      "sha256": "2e5221b34362a96da6c43e4a3451ea66bba152988e5e2a3fd9f1e5ec5315dc3b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/camera_eeprom_v4l2.ko",
+      "size": 178040,
+      "sha256": "536f4a5b585cecfae65b2b634984b04ca450d7e507bba9c7defcf4bc6d8c2bac",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/camera_pmic.ko",
+      "size": 71832,
+      "sha256": "e64cb5520a1ebb454dfe36bc65a7ac1af1bf371ab1e5028fb49ca81d3d73ee29",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/camera_utils.ko",
+      "size": 38208,
+      "sha256": "c94d9e746f34957fc21861a2402d6a1493bc747960d12e7dd726fd446b973111",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/card_tray_gpio_detect.ko",
+      "size": 19624,
+      "sha256": "0508eaaaed9f70a4eb71922e7053179e82a4b848ffc176f00b4bc8f51aefb315",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ccci_auxadc.ko",
+      "size": 18600,
+      "sha256": "83197b6f6697ee8220a65ebdfb45ce20a477469386a248245e289ea28cb82b20",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ccci_ccif.ko",
+      "size": 119776,
+      "sha256": "ec0a14a36736f70722c5fa7e55ce0e40c16298c3802381af1a76b9dbd18028ad",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ccci_dpmaif.ko",
+      "size": 412256,
+      "sha256": "205c25859883285a0ea7e4727cacd80606f81422f63b594db20330552209c3eb",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ccci_fsm_scp.ko",
+      "size": 46472,
+      "sha256": "185a37ad4275416ab1e56b6e8ab8e4b10bea257bae0ed3fc12faacc9806025d6",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ccci_md_all.ko",
+      "size": 1053960,
+      "sha256": "e3d3346cac365653c0693597d9d082bac044b904e48b0fa893c8cf29498c06f5",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ccci_util_lib.ko",
+      "size": 239328,
+      "sha256": "f3816583014d70bbff40569fbc6bcc6b79b9c3aaf607769c59d7bd78e0a72a96",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ccd_rpmsg.ko",
+      "size": 60136,
+      "sha256": "3f33bffcabc90926a1983c7776436f5b63949ca8123d7d47ad839f881e9a91ca",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ccidvfs.ko",
+      "size": 15488,
+      "sha256": "ac3cc380ce53a4dd2175f521d78d65093d9f7e8c8d26fdbdfe7e418d45084959",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ccmni.ko",
+      "size": 55136,
+      "sha256": "664fd041105f18dd680eb17fc59f78cc594b585923ad51fe59c4231f96d09b3e",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/cfg80211.ko",
+      "size": 2143848,
+      "sha256": "236312def36ba4bd271138c3a54fa10a5a02e4501a0c972713d1ee651d1ad6b4",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/charger_cooling.ko",
+      "size": 23952,
+      "sha256": "99c895dc5c6cd0cbe19f04e0acfea28290a3ee8d90102a8254a325376ed63396",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/chr_misc_device.ko",
+      "size": 34328,
+      "sha256": "4eb149604efcd14289b02cf00168ef297c71fcf8ac105ebec6fcb764f159fe95",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/cifs.ko",
+      "size": 1731056,
+      "sha256": "b66f1dc14870ee39ce50e2eb153ebb3128a4520d206026836d3bc694a0e9ac40",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/clk-dbg-mt6993.ko",
+      "size": 75176,
+      "sha256": "fe3b78ec72600d8a4c349dd66f808d6cfe644aaceef11151cd107bdedfac3b10",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/clk-disable-unused.ko",
+      "size": 16736,
+      "sha256": "d373cd21202566d85c1b6c6326592f16500d066cd566d54a7fb3b19fdac16ec8",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/cmdq-sec-drv.ko",
+      "size": 141176,
+      "sha256": "2e7ca8778b8f932e9de4890f4e876131156e4ab1aa035cb31fd83f986f4accbd",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/cmdq-test.ko",
+      "size": 87048,
+      "sha256": "77d4221b1d5d1b6c40bcc59ca00b64cd447fe1ac2ae38aec2f3428657d28f9bf",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/combine_key.ko",
+      "size": 18808,
+      "sha256": "3bcafb5d9d640a202470a88cc209ecdfcbd2759ef56bcfbf802db4405fafd5d0",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/connadp.ko",
+      "size": 96008,
+      "sha256": "9e74617f8fa3df45beb0e1c9f20e6a03228c20620c6bb27449e3b635e2d21504",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/connfem.ko",
+      "size": 188008,
+      "sha256": "b11c316118b94f117beb7d3b696a87749c0c24e7625134081c0fa06cf851dd2c",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/conninfra.ko",
+      "size": 1695176,
+      "sha256": "1d4e7bd2b4d4dfde8de3764f312bb3be6afdb9e4dc1d7d0e9023ec5daea1c374",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/connscp.ko",
+      "size": 133160,
+      "sha256": "d3d22f3cd8784169cced5371579c3ac4544671c6921e38b739a152a4ce4ef5b9",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/coresight-dummy.ko",
+      "size": 21848,
+      "sha256": "51b8e5a9064690335d839940f2c1caaad45790e99819a3f03fc9c13159fe2c38",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/coresight-etm4x.ko",
+      "size": 172328,
+      "sha256": "7e2dff1b2da8f70498a6ccc8f7550dfd248f82641f3c472fcddaaccce2706e8b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/coresight-funnel.ko",
+      "size": 31592,
+      "sha256": "666c38ddaa88d980b969194fb62fe16efa3016af9ed5561efff4d866f860895b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/coresight-replicator.ko",
+      "size": 31616,
+      "sha256": "3e99ad47b8445684d382dba1f5585728ec771b6cb5eb3c6dbe9c1915503c3377",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/coresight-tmc.ko",
+      "size": 96184,
+      "sha256": "c1c8fc253d16d1a5f9c704b776295f00291b387a177977be65d35083a9d0dfa3",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/coresight.ko",
+      "size": 176624,
+      "sha256": "7b690c80284d531c14c68c94e066986417dce354309529406889797ce8bb9a88",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/cpu-netlink.ko",
+      "size": 150000,
+      "sha256": "b797095e21509e520055f480514fca1e479bacbb3342a72bf6ba38d4ff0f096e",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/cpufreq_sugov_ext.ko",
+      "size": 675968,
+      "sha256": "ef29d7ee989d12aa05bb86dca46b7ef075297c772697eab8abcae2a8f937057f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/cpuinfo_ext.ko",
+      "size": 12184,
+      "sha256": "843d261718ac074ab913b452f1c6a58de573c4bfaf03802750250230c792d056",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/cpuqos_ext.ko",
+      "size": 14576,
+      "sha256": "77f2b5073b4acf90e6640c9e23cfad7f32f5c4347cef38f431656062271f4139",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/cpuqos_v3.ko",
+      "size": 108456,
+      "sha256": "5bf7b6b6fcba1886f5fbf937cdb647eef85070f02fd28e5d5e8c503b99cd6b1d",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/dns_resolver.ko",
+      "size": 30456,
+      "sha256": "dab4108026988ac1c8bdcf1bd60ac7facd6f3f7dc1a00cf29c07e945d2384ef1",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/dsm_audio.ko",
+      "size": 19648,
+      "sha256": "df879aabddfd57079061cc2e1082f1f02f78cb49b5f9430703c42dc6c8e5fb9f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/dsm_camera.ko",
+      "size": 17240,
+      "sha256": "aea686dd55a9d1b702929ba4c979c371c12f5a4831f74883fa76127e56ee1a0a",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/dsm_core.ko",
+      "size": 63336,
+      "sha256": "e5dbc0da055a728cfad14bcb507de9c5e20582ac3c3d9ee694428283ac6d2b26",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/dubai_common.ko",
+      "size": 211104,
+      "sha256": "dc7b846008c463d7fe106d9333bba78ea7397577259d1a5696e74ef8f4f61d63",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/dubai_mtk.ko",
+      "size": 37104,
+      "sha256": "c090068aa26618cdde8225f97b71f1c23def4156a1b0f65b4c1c96faeecec6a9",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/eas_ext.ko",
+      "size": 17608,
+      "sha256": "f1d3f24fc513e37cf186782b45b4ec2b336c04ad4e889e692d0c7085c0a9a9dd",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/eima.ko",
+      "size": 81712,
+      "sha256": "4b70c064333e78348aa7c1f22f88b96fee5737c95503889814ef1550f3364632",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/emi-fake-eng-v2.ko",
+      "size": 29168,
+      "sha256": "be2c19a8c51b18d0c94c8013ef52c38a4abd78760ba21b5ba33a1567f4cc24eb",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/emi-fake-eng.ko",
+      "size": 30688,
+      "sha256": "b8f6d36515685ffcf6cbb889ac6b7e3cc3ddd1fbd68ac12540cce4b2b6c1d399",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/fg_ic_mtk.ko",
+      "size": 665088,
+      "sha256": "7203017ade2fe91bdf30452deafbb56908caff3989b07006dc49a44cb5aeaab9",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/fhctl.ko",
+      "size": 167280,
+      "sha256": "abc77d36c098c3a065b63d9a9698cfb25563240a2a42696c9414c003f47079e9",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/fingerprint.ko",
+      "size": 123480,
+      "sha256": "c4ebeb9c9d0fe9616de9d544ffe38d861fa24eb842c3e2625bea3db37f19cd6f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/flashlight.ko",
+      "size": 104640,
+      "sha256": "e6cc5c87969acd76c68b4adfca1253480e2cf388721655738ca5725253e8fc8f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/flp.ko",
+      "size": 98704,
+      "sha256": "df31026b786e9c76564978fbe9c9da7fb36d995e6ec23e272d7c25c84d3a2e86",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/fmps.ko",
+      "size": 83208,
+      "sha256": "bfa979dcb8dae5fd1d9c6dad173bc161e89d83f2462599c4764f53a660d78055",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/fpsgo.ko",
+      "size": 70112,
+      "sha256": "59f78881537e2c576d0c92544e42008b0a7a5afe27a4d2830fe4fcafcb445d07",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/frs.ko",
+      "size": 21240,
+      "sha256": "7fbc0f51df4ba6ef993f335d9086793149576d00daae26a84f888dd161fb83c2",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/game.ko",
+      "size": 21712,
+      "sha256": "c8a76a85b981edbfb6c7893afa292a2e2a7c5e920e189d313f57acb273a1e520",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ged.ko",
+      "size": 1464152,
+      "sha256": "ec52aa930a46bf2392b177e175e6736c3efd8f3cf8585b353a6be3b02a0e1b3c",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/gps_drv_dl_v062.ko",
+      "size": 1297552,
+      "sha256": "7184847801a9ec2b54549b62910578ed7ef624497ead67bf6f56955ed3c421d8",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/gps_pwr.ko",
+      "size": 22912,
+      "sha256": "d036f23d1d5aacd67622301a52c0b78a2279def2d54c37b448799e492fed2a04",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/gps_scp.ko",
+      "size": 30192,
+      "sha256": "09eb32480a0517b6741bc49b600e50579f3a6b9214ae21bc4708730106525328",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/gt9895.ko",
+      "size": 229120,
+      "sha256": "f8ede7ae6a39a324990116cee0e357b5a11278ef80db365e7c6370d6b71d029b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/gz_ipc_mod.ko",
+      "size": 87896,
+      "sha256": "879ae09d5e69f1ef5f9184c71751c391e1e3c029b4c1ea07528dd0002ffab140",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/gz_irq_mod.ko",
+      "size": 32504,
+      "sha256": "d7ca57d8e69b1b8d6222c4824a96834387a35c4ec17d01b69e872ebff9620112",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/gz_log_mod.ko",
+      "size": 32872,
+      "sha256": "2aa574db63c24d458e7e7a873a7ec6e700adcb60d829f2dbb4355368db7f692b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/gz_main_mod.ko",
+      "size": 103192,
+      "sha256": "914ce5caccb8b8d91dde0b5bd965d30f24f3bce12248a9d5b461ba21e6840855",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/gz_trusty_mod.ko",
+      "size": 52120,
+      "sha256": "90a80cbe58bb5146258eb5c87ce3d8e0dea3eba13e31a38391829db260ef1c70",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/gz_tz_system.ko",
+      "size": 84784,
+      "sha256": "5c1b42937a17756b400196a9bfa890ba751ae3dfe4bc98bf39a7092e0682de55",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/gz_virtio_mod.ko",
+      "size": 46600,
+      "sha256": "549cdb762a6bf6adadaf29e1caceac3affcc8b94f42b20474604b8793ccec0de",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hardware_detector.ko",
+      "size": 29568,
+      "sha256": "75ba39535bbf51a999ca9aecdd849fb79991f1e29f01419f3405c5dba9de3bcf",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hf_manager.ko",
+      "size": 84696,
+      "sha256": "cc4ad719afedef8282364598995470a0762dc8e65e0b46dcafc88c726266c894",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hme.ko",
+      "size": 106416,
+      "sha256": "0c09b5a9910de5c66f5dc8659a642e753aa644fd580bf604d742d8bcbdfe69fd",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_async_binder_rt_gki.ko",
+      "size": 20064,
+      "sha256": "5acd0422e4d6789fc2262e2fcb764a76a25915293a6bfae96a043d9098acd750",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_cachedisk.ko",
+      "size": 43248,
+      "sha256": "838a7a5f913f3fb695eed7c348c5a7ceab81011e5ceead8963782830d5645142",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_emcom.ko",
+      "size": 483768,
+      "sha256": "c36af25749d917432c49f6721c87bde974160d21582a888741a9c65136174c80",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_haptics_wrapper.ko",
+      "size": 69072,
+      "sha256": "30ce2999d950bd7d0ea30ca1f5766b5ccf72e9dd7e5b980cea492f6d6c5af2e4",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_ifb.ko",
+      "size": 60616,
+      "sha256": "eab00978a8c6fa35d6ea9b21d78ebfa1a9f1637383e4842d347fbf022762b9f8",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_ioprio.ko",
+      "size": 28600,
+      "sha256": "d37c0c71cfec7c61e34b7f120f388e740e54f01d105b35cdbbdb2a55f78fe97d",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_kcollect.ko",
+      "size": 27072,
+      "sha256": "a99d88942479653e860b4163de995e7f386cb1dc3b67f451d41f7b5386691d68",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_kpg.ko",
+      "size": 16048,
+      "sha256": "378a8553871cb18603ef4228c337d757fc915c737982578b29db8c0838c93d89",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_kpwd.ko",
+      "size": 27768,
+      "sha256": "4cac8ec2b69e4bd7bd6ab109641467c8a2b9a0098c7333cd46c30462613e6cad",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_kstate.ko",
+      "size": 29040,
+      "sha256": "9966666c58a4f98972508907a8a70bdbf9aadb08b7a98dd61900ee5dd4331a7b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_memcheck.ko",
+      "size": 93656,
+      "sha256": "6c5a977f4bb8d4bf569c4c81567478aebc51fd885b718cd2085a59c3cb646492",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_net_bastet.ko",
+      "size": 25016,
+      "sha256": "5e7b16ca0706658f745e1171a85d08fd8cb903272a1d1a694e71215ecd599498",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_net_booster.ko",
+      "size": 86464,
+      "sha256": "74a4dee19c7e2409f67da5616b6afdf697a36d3a19ba327fbc237ad494622f3b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_net_opt.ko",
+      "size": 17720,
+      "sha256": "7dd38259b6c8913a247c611818d4460be08391d514b83aa48a16b82aa0e62ffc",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_netd.ko",
+      "size": 156096,
+      "sha256": "77d744b3bbec95a2f7740308cc3f84f10b07510e0c67eccdee7f442fb297d69e",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_network_aware_gki.ko",
+      "size": 33112,
+      "sha256": "615800c26ee81c50d3cf19b2df44b90c951d0a7266710704496bb20766e36654",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_procdatactrl.ko",
+      "size": 39520,
+      "sha256": "5547aa8e839ccd4568b5d0840bfb85b06d7bf999532e54f3a0d9c53c8f89c511",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_procnetstat.ko",
+      "size": 73992,
+      "sha256": "107e5f3b9f8886907fb1921a26b3fa50d6058da8bd0001b0d8a027a891cc5cd6",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_shell_temp.ko",
+      "size": 122688,
+      "sha256": "72badaaab565aa7c47694af47cc93ade99ac9787ee3617b48af0ca459aee2bba",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hn_wifi_link_monitor.ko",
+      "size": 61376,
+      "sha256": "0e7da5127dcb18987b5e12e574ba383fae9f46da1845b70ea5a5875cd07353b9",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hnblesensorhub.ko",
+      "size": 40136,
+      "sha256": "55df22cfca5f9e1d027344408ffd566214a30d68d5cd24caf8da3e9f4129ca11",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/honor_adapter_protocol_ufcs.ko",
+      "size": 86896,
+      "sha256": "bc76994b939f905702e7b95ceabd444f6b16c58fa8d5e5b95695e073f4c4e5f8",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/honor_batt_ct_mtk.ko",
+      "size": 294736,
+      "sha256": "3d9e04f0ac4c2688c7d27800a0ab917a470c0d5da6827363498d624440f63864",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/honor_debug_symbol.ko",
+      "size": 18832,
+      "sha256": "26e154f1b2c5049a67330f34170ed9cfa89699f54272b9e00eb99fa568289019",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/honor_hung_task.ko",
+      "size": 45824,
+      "sha256": "6674d2d6add57140aa7362ec87e0ebcd4d21a235da7b34b75c6f5d73948a9921",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/honor_ir.ko",
+      "size": 42240,
+      "sha256": "2f626ca3f24caacb2861f9af912360f930db4296adeaf54543c3639976548b3a",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/honor_qos_sched_gki.ko",
+      "size": 71456,
+      "sha256": "9e76de5489a9d72e272c3966a3a5dcea8be70e80f39a42bbc56fc9cfad36f019",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/honor_usb_dmd_report_mtk.ko",
+      "size": 104400,
+      "sha256": "b6cd42e97a66aeb231418deb385e122c3f159257edc5be5bf0da8639b8ec01f4",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/hwcam_cfg.ko",
+      "size": 48504,
+      "sha256": "aa20890d2ed7ede5b5454ae666d35b988bd4b6d1a8ba436aa0bc849e7c593e6c",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/imgsensor-glue_isp8s.ko",
+      "size": 16800,
+      "sha256": "ac3d9888d88d71e99d0d92da614641afbba25146a7c2b8b1dc0bbf4dfc4ccf1c",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/imgsensor_isp8s.ko",
+      "size": 2125880,
+      "sha256": "0fcf9209480772e10661da955a829b98ff3f92b60c1403f8a531ccab1c5ba49d",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ioinfo.ko",
+      "size": 27504,
+      "sha256": "e3a8709c8bf249845ed1af7c41cb2d3994b813f19cd35ebae6b482782b9bc179",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/iomeasure.ko",
+      "size": 66224,
+      "sha256": "4b15de688a2954f2babc49ae232f999ffeb6f351b371e4d53e044d07959962b4",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/iommu_engine.ko",
+      "size": 17528,
+      "sha256": "352d09b870fcaccc97b57b294f0711611197101fecc314f1630a09cc4ab3f61d",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/iommu_test.ko",
+      "size": 11040,
+      "sha256": "eab6112d000479b4e078afb9d91b637935e3a5bbaec90cbc713b7703ff758f80",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/isp_pspm_ioctl.ko",
+      "size": 17712,
+      "sha256": "5be819a84ea06405ecf9fa67ca8e08e8dc78c66f56a624b62fe7cd26a81c58be",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/jank_detection_common_utils.ko",
+      "size": 58096,
+      "sha256": "e95fa9bf09b5a7c73323caa769260c86e25266603d96acc8bbab8375daf3d82d",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/jank_detection_core.ko",
+      "size": 65160,
+      "sha256": "212c06307e46a7d6753fb734a35b5cbcd4c1c149027eb7af8c76d99ae7b8e90f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/jd5517.ko",
+      "size": 43216,
+      "sha256": "be67b72ba97fe491758fc5e9d66b7098c47aa7257712e3c5b1aa6cd8f80e1e40",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/jpeg-driver.ko",
+      "size": 116192,
+      "sha256": "ce7228c05899df30632618fabc75f367514ad21fdbe2b2d21a7e2371b6f8a161",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/kcompressd.ko",
+      "size": 25568,
+      "sha256": "e704865a1904cfba28b957ce2c59ad90b3c328dca42b38ab556e239bccb02580",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/kernel_stp.ko",
+      "size": 58352,
+      "sha256": "0d99adbe90c96ced440348b6f9f165ef5779b01a1aecbbbc9c6a3edb543cbf6c",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ktd2688.ko",
+      "size": 51768,
+      "sha256": "77119b3cce4f2e2036a60630e8c5a30634066c8ef4635772ac8502d3c34f08ad",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/leds-mt6379.ko",
+      "size": 33232,
+      "sha256": "9b5757319456b92cef65077c8d0616cb2fac5c71156d16fcea7874a81c56bb8f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/lm3644.ko",
+      "size": 51176,
+      "sha256": "b5a451e41b0efbaa4a775d19968acd24ecd17b4c045b457c909584cf392a2187",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/load_track.ko",
+      "size": 25840,
+      "sha256": "1ef0fb6bab84c0d9d59f9f4367ef58499261e6e1fe30abf445cfb2ccdf87ed23",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/logger.ko",
+      "size": 431232,
+      "sha256": "c35ac6aeba5e17e3fa48ce489e6fdace330e060ec0d0b285e60a2ea43e30a348",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/lpm-gov-MHSP.ko",
+      "size": 60144,
+      "sha256": "bbe477a11658b505026ce87955e6bea0beee4f5af3e18fea5c9afcc7bec508b7",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mac80211.ko",
+      "size": 2048496,
+      "sha256": "e12534227f0dd464a4c9665b0cea6de0dde44fb31f902aecc3aba9af48ba1b8d",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/main2_vcm.ko",
+      "size": 42640,
+      "sha256": "dff7d9c336a7e5c44e9523fe76432327d82713f4c9db1305a99ca3e79ba85af3",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/main3_vcm.ko",
+      "size": 43288,
+      "sha256": "740f756af24ea163c328974392fa075fed3ad9e8270bdae06bb3d2f2501481b6",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/main4_vcm.ko",
+      "size": 42640,
+      "sha256": "3a51cb6d5e50e9ff4317d79e1913a1b8df73d54a1cb1daf719cfc4d63cfde8bc",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/main_vcm.ko",
+      "size": 42496,
+      "sha256": "e69821c70adcf07e894ac58f13d2ef4ae5f21a4a9650d27dbd197111d0946ecb",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mali_kbase_mt6993_a16w.ko",
+      "size": 3385384,
+      "sha256": "fab8fd8fc658dddc03140a24da9d618aef096b5180132e8a7b07b31721a9a988",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mali_mgm_mt6993_a16w.ko",
+      "size": 63656,
+      "sha256": "9c0f0f0c7583860d211c37f512de64a39e0f5e8a51c3425c1e92c81e4e11da0e",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mali_prot_alloc_mt6993_a16w.ko",
+      "size": 22472,
+      "sha256": "ea6e80c77e4497f76db8d5df50e176e59ed532610fe4c47367fe43f2cfb93525",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mcupm_v3.ko",
+      "size": 49496,
+      "sha256": "61c801b4b16057592c75d746aeffdba337dca22f220a3caf2e7a22d22a5cef68",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/md_cooling_all.ko",
+      "size": 46256,
+      "sha256": "9dd092814160daba7a2510e1975a2890f12e0e409f7ad167f53f2a173039028f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mddp.ko",
+      "size": 202936,
+      "sha256": "0c25dccaf3fc713089f23c77e6e75bee3e491ec3df5d195a0c37a9d6d8afca77",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mem_lend_mgr.ko",
+      "size": 27152,
+      "sha256": "d7fd77bc3fe8cdc251c1e9e67a6d7c0b530b34ada012aa5b5085988dc7ec185d",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/met.ko",
+      "size": 1306360,
+      "sha256": "557fc43a5902086bb6924ef27f08a77b323b273248807013e77ba0313ed94836",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/met_backlight_api.ko",
+      "size": 13056,
+      "sha256": "19e998791a741586116d56869754191af4682910e630e9f6404ba2aad6b024a5",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/met_emi_api.ko",
+      "size": 13704,
+      "sha256": "9fef4b89e883e6eea3b38a8c9ee6975e35d8de37d04cbc1359416adbdff8137f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/met_gpu_adv_api.ko",
+      "size": 13528,
+      "sha256": "5a6779ac9ae2697391e91a303463f6816bcb8b5205210d0e65f602dbf104ae77",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/met_gpu_api.ko",
+      "size": 15952,
+      "sha256": "40d71d7e59c8ba270cf9fef38f524c1808f46d6e144a1f55485313174acd6055",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/met_gpueb_api.ko",
+      "size": 15784,
+      "sha256": "12d5f62b88e4f731d7f0fc3b344d74db92bd5197b248d4f663ddff5d05303c21",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/met_ipi_api.ko",
+      "size": 15288,
+      "sha256": "901ce9a9c08917427e6ba77c310ebe46e559929b1fd526b4e75caff6a9693f34",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/met_mcupm_api.ko",
+      "size": 14232,
+      "sha256": "ba5c47976f32bfbdd1a4c3d046c8e467ebe8b024eb93863ceab5748428e26472",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/met_scmi_api.ko",
+      "size": 14976,
+      "sha256": "43a593b293b860417dd333c7dadd197026bbb3c2536aa0bfca91c14d11233f84",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/met_sspm_api.ko",
+      "size": 14472,
+      "sha256": "c1fcc6e013b00b72b9488f1104c134187eaaafca6f45cf16ea01f1d450f556e8",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/met_vcore_api.ko",
+      "size": 14960,
+      "sha256": "8d0fa99cb430818726cc7030d1a0a3622ebf90a7c129d749323c9fb895566d6b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/microdump.ko",
+      "size": 76576,
+      "sha256": "738f9a337889baffc5847f612e115e2784e79e9d69637dfc95a2466e57edbd57",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mm_misc.ko",
+      "size": 117752,
+      "sha256": "373467cb699e9e0a5192ff3037f0fc8ddfda3e60e1b586349a702bf64be92c2d",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mmtrack.ko",
+      "size": 34048,
+      "sha256": "ceacb94fd1b5f999fd995b968f3d90377d795c6153eca7baf0ac04c81ccf23dc",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/motion.ko",
+      "size": 57592,
+      "sha256": "f31602bd2ecb6b1592c989eb35471974602e7b05212b8d725fd791f53a5b5456",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mt6379_ufcs_hn.ko",
+      "size": 30184,
+      "sha256": "019a7281d1c1659494f4c76cc331f2864febc94530a685fc02747a3b4d7b5344",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mt6681-accdet.ko",
+      "size": 114936,
+      "sha256": "0e7733bdcfb34c90228604a63eb5aa4e48dc52f9b932f70f2d5a3b00a50c0de1",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mt6993-mt6681.ko",
+      "size": 115584,
+      "sha256": "bdd741a82e3b693e411001296c372bac45cad9a5482966da3d80383c54b532df",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-cam-isp8s.ko",
+      "size": 2225136,
+      "sha256": "c358863d8b227f856099e0f6d42be8471185cc9ddf794a90b2fb289af6a7da6c",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-composite.ko",
+      "size": 23048,
+      "sha256": "422ec64616c65c3a1db1df5be9810e37d14fd54bfb9df4c7fb4bc6ae6a22a06f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-dvfsrc-start.ko",
+      "size": 15192,
+      "sha256": "c104482cb010cfd34a6f2da9fd6bc197213001811de4fac20f75718c711b02bf",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-ipesys-me.ko",
+      "size": 23768,
+      "sha256": "5b38b97ef632523bf9c1012d383653c85e557a22682438372975ac59e767a3aa",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-ips-helper.ko",
+      "size": 35000,
+      "sha256": "bd10e1563b973add06167c969d460031b2e4bf6ebf3f39b54c331106ee1f7def",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-lpm-dbg-common-v2.ko",
+      "size": 245056,
+      "sha256": "eb89f867a6c25031efe61f5255e46394954ccb64bc92059a846cb1d4f135299b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-lpm-dbg-v6993.ko",
+      "size": 89888,
+      "sha256": "5ec4d10e96089709d9313b8ea5d769a3b2e4fe0f0071012ccea4056dc9875e61",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-lpm-plat-v2.ko",
+      "size": 32152,
+      "sha256": "847158a29a4f01f33b119a2e3d7a4dd24864e854c63bad096dbcb0ad3275f3d1",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-lpm.ko",
+      "size": 121896,
+      "sha256": "a172afb43c21cafdf07db155d0a76faa2aab4f95bf3012c51b75d79fd385da47",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-mbox.ko",
+      "size": 62088,
+      "sha256": "8e83e0f26b500952d91e91f386a02c3a756633847083bd590b47c42ecddb8687",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-pmic-oc-debug.ko",
+      "size": 47848,
+      "sha256": "0d90760c0a76756b8fdd00d7c34fbcf991181fb667f916ac44d9f59a70b33a0a",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-pwm.ko",
+      "size": 78184,
+      "sha256": "e181b1834ee9286e7a8200ec7d8a3be39beefea83bf5a090065e70f35720b4d7",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-scp-audiocommon.ko",
+      "size": 70584,
+      "sha256": "50cda75277be2ada00ddb6af6468e5244c5308fec25053d4f13708baccefe0d3",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-scp-ultra.ko",
+      "size": 17480,
+      "sha256": "5488e3419a7f18f25db3537df7c45b9f8bf0864c5d185a90884744131649e0e4",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-scp-vow.ko",
+      "size": 13928,
+      "sha256": "1bcf4e2f27d1fcf634f0e40b120bfd3ae9729e75e9aef0f5e436eddd2968bb3b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-smmuv3-mpam-mon.ko",
+      "size": 30360,
+      "sha256": "480589b5bc53f4a1f98e54b67b91cd30efbd8d7c3de251530a1c1f446d0526fb",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-smmuv3-pmu.ko",
+      "size": 53368,
+      "sha256": "fa89f90730320c753a7dbe0a827d3c6e95efeca98f9208d0b1fe89d694229874",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-soc-offload-common.ko",
+      "size": 53016,
+      "sha256": "dc3b8f704a2f5e34594c70949207954a5b33ae8261613c5bf052b03b7761c596",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-sp-spk-amp.ko",
+      "size": 30576,
+      "sha256": "b4d43cac27f65c6ec6c938739686a68c1f8e9f89d9a47d857681934756af0805",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-swpm-audio-dbg-v6993.ko",
+      "size": 16144,
+      "sha256": "07a71b3cad8798d6e7b34fc7f077937bc31d358b7d3042653346f7373be1d885",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-swpm-dbg-common-v1.ko",
+      "size": 21360,
+      "sha256": "1540338ac08634e172e315e8db84943ce7e4ffc464f0d004aa19fca6db70e2d9",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-swpm-dbg-v6993.ko",
+      "size": 96376,
+      "sha256": "1e292a1f43d377af8e3cd58035947d828f0dc90dc462b24801ff313deec9bc41",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-swpm-disp-dbg-v6993.ko",
+      "size": 15872,
+      "sha256": "cc407f621e1cec46c018fe611ed3328e838c66ba14aa27da9915c032f6c2e857",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-swpm-isp-dbg-v6993.ko",
+      "size": 17728,
+      "sha256": "6f839ca91c8c9f070e90be9e51059d369f768ce27632c3f5d8aeefa0e1962787",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-swpm-isp-wrapper.ko",
+      "size": 13864,
+      "sha256": "f1d267cbf9014021704bd5d1ec50ae7cb8cdb3d4aab173beb6fc0fb06fb18d9b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-swpm-mml-dbg-v6993.ko",
+      "size": 14208,
+      "sha256": "b88b73389ebd2f4d349139e33b1888efc9fa42911225908df4fe8a268345a04f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-swpm.ko",
+      "size": 57360,
+      "sha256": "d8e85b228282ab49a604435d93ed8d3d8f1da5ef86431c6ef31f4fcbb675d434",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-vcodec-common.ko",
+      "size": 177296,
+      "sha256": "18c64f974e6b669aad9f367a694d027077abab9a2039fbfedee5b2ea9e23c4ed",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-vcodec-dec.ko",
+      "size": 586576,
+      "sha256": "c3aeaf0e294a786fc3505ee4d169b9683f4e29a3079ba20a5558067816a33066",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-vcodec-enc.ko",
+      "size": 568664,
+      "sha256": "94fc5b7db49ff2008387987574c8972e38843f233abff1b59bb0cf6aec9911f8",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-vcodec-sys-api.ko",
+      "size": 13504,
+      "sha256": "fce034b9546697346b8abb04ee456364dcc16a7822ebaf20f655d50ba99de035",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk-vow.ko",
+      "size": 148040,
+      "sha256": "720f595edebd54a5f3cab163b3ccd625f9e3f2c3b918cd31d4a8722f691ce725",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_aod_scp.ko",
+      "size": 1343088,
+      "sha256": "be7a0b112069bc1bf0d201ffcef69aed4f335ebc553afe21ce3f98c856b58d28",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_aov.ko",
+      "size": 192560,
+      "sha256": "6d5859853e301927bce07cef9572f99470e2034b5614f9d1a4e8910239b9f88f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_apu_power_throttling.ko",
+      "size": 31384,
+      "sha256": "993d9012c546cdf36cef77177006ddde03c2d3db9e4b78bc031b82fabe20a39e",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_c2ps.ko",
+      "size": 312912,
+      "sha256": "fff0c0e8c87ed962293f85c6bcdb4ba9c4f2ac5ac563822a1dc0c00f48a95e34",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_ccd_remoteproc.ko",
+      "size": 44152,
+      "sha256": "e97a58b6626653b723d7934326a85fd6fce5a7322fd22abec78340fda1ad8597",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_ccuv.ko",
+      "size": 83600,
+      "sha256": "8d7464f53461102f643c1f547bbc6f1d0abee1ab12429c05e41d4d441495908d",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_cg_peak_power_throttling.ko",
+      "size": 102984,
+      "sha256": "073e895a4fbd0ca03e3d77e903a4e61aecc0e6e6e7c31a522efdb6958d621759",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_cm_ipi.ko",
+      "size": 15912,
+      "sha256": "52ec4452302ae4525c439748459952f47b44663485c288f9c5b452bc4850bc6b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_cm_mgr.ko",
+      "size": 78304,
+      "sha256": "2a0bec72c0d9eb84f5df873fe088d709cda7d955e71a0fd047d42fedbd0a5fe0",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_cm_mgr_mt6993.ko",
+      "size": 51872,
+      "sha256": "e2353014ce7b2bc6c7726dfc252f079e2706ddc07a9556e69fb0161d7bec6dc4",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_core_ctl.ko",
+      "size": 213736,
+      "sha256": "aa830e699134c13371b4d959613b26cb131aba2f9996e37b3a9c8780f702f86b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_disp_sec.ko",
+      "size": 42192,
+      "sha256": "121401569a489f67c7085f2a8113d751bc45e33e33fd4a7f6d3e8363be28a5b3",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_dynamic_loading_throttling.ko",
+      "size": 36656,
+      "sha256": "85737dbb484488be2cd457c797b7499a0a1eede802a5ede38a54ef955f87e7ed",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_em.ko",
+      "size": 187088,
+      "sha256": "b47f5733fbea366928be7aca35f39e71bf9550d77c813ac916fe1fda513eaa56",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_fpsgo_v8.ko",
+      "size": 1060408,
+      "sha256": "7a93f9f8f5cb49816295b6d3f9c4959cce5ffc7a9e86e663fa022d8b5879e632",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_game.ko",
+      "size": 202672,
+      "sha256": "e14ebd65c6131fb801cf80645d1d0255a66db3750bf627e43305484b6114a077",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_ged_mt6993.ko",
+      "size": 15592,
+      "sha256": "e64d907ebdae5a52fd5e024c3b524fbae268d69b3f42baa99536c5ce1904cf73",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_ghpm_mt6993.ko",
+      "size": 49192,
+      "sha256": "d1c9a8297c01bc5c441e8d5b2032fa48ba6fa98391f79523679c25f1635c85cd",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_gpu_hal.ko",
+      "size": 62680,
+      "sha256": "c56d5ac082a461bb9362410fcd2c330acc4bd6af88ac7fdec9f2f1a22806426d",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_gpu_iommu_mt6993.ko",
+      "size": 13648,
+      "sha256": "8a15e6107b983c6ccd60b6f9daadf0a27c054af1b80c1a197c2422945023b566",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_gpu_pdma_mt6993.ko",
+      "size": 66640,
+      "sha256": "7dd3839e0c516efb82ffa41f07f1218013dda07720d0d317df43aa08d8fbae20",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_gpu_power_throttling.ko",
+      "size": 62216,
+      "sha256": "0a365fa67084ee6da3497af851a049efc1943d92af3998376d67dd7f9faaf42c",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_gpu_qos.ko",
+      "size": 35224,
+      "sha256": "ca8203314728c752760ec88ea19940077fd775d05317c13c04b74904e62d14db",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_gpueb.ko",
+      "size": 134104,
+      "sha256": "84ff20a67e0eac3efcc2f7307a8eab47c4bc7436c48cefb71bf48a19cc07cd07",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_gpufreq_mt6993.ko",
+      "size": 116792,
+      "sha256": "d900f1193cd3268f38b8596795b6c7e2bc95b3b7651c7516c9bdca2919162637",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_gpufreq_wrapper.ko",
+      "size": 166688,
+      "sha256": "794dc482dbed455a4221ce3faa9742a17a571abf1504e4151b4bb65a88e7b7bc",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_hcp_isp8s.ko",
+      "size": 512936,
+      "sha256": "f2ddf2b1a100f2d499debc912805d87d1fd7f5a965e1c836d7072bb05db6eb0c",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_heap_debug.ko",
+      "size": 120624,
+      "sha256": "7f8557c5760c728a163018219a455c0a7606392b49ebf640db06c645c2ec1e45",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_heap_refill.ko",
+      "size": 25632,
+      "sha256": "f80cf2b276c1e051965a4a783ad68578d310f0758c3117b0302eb2010c5d0869",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_hwz.ko",
+      "size": 181032,
+      "sha256": "2f4f365c0ec9931170c05f99ce1e2d50fab5db5336286d10cad4d45a07527fe6",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_img_frm_sync.ko",
+      "size": 66832,
+      "sha256": "b5e7d0bf16223095fcfe969981fed6d6de4d48e0c7c4118b1d2366b27e4bf4ec",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_imgsys_cmdq_isp8s.ko",
+      "size": 486744,
+      "sha256": "113a2e2b9e93faa2d04d27a94061d72ee395f34f69e6d308726af9a81bfb92e5",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_imgsys_isp8s.ko",
+      "size": 573840,
+      "sha256": "5de803eb427692611793d713db4a08a8afc49faad8715930145a45c1aaaffa39",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_imgsys_v4l2.ko",
+      "size": 83064,
+      "sha256": "a9b0bc9cff6ad41227071568978c485a7a3f3624a7ba35d8c8ba9d222a00848b",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_ioctl_powerhal.ko",
+      "size": 25936,
+      "sha256": "b2323628e7b3f6e2a7707597c3d575f445ae4885ebfcef69f1ced6558a53cf38",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_ioctl_touch_boost.ko",
+      "size": 16240,
+      "sha256": "6b6504d7bb1f3fe2eeea82dd0302f097ded42e97098016991ee7db6feb245db4",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_irtx_pwm.ko",
+      "size": 19232,
+      "sha256": "1abfe86f83e6975ab3e7b5b0864962481ecfa3507e22978be715279972304c9a",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_jpeg.ko",
+      "size": 112064,
+      "sha256": "dad545c1f92f353ba6ee8f95caeace592c4f8e37590bdc24280d8f03341ce6d6",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_mbraink.ko",
+      "size": 292016,
+      "sha256": "15d07c1800defbe71444bf921e8ded0acb98ae7fc897a920b424f03b5e57fb78",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_mbraink_bridge.ko",
+      "size": 32720,
+      "sha256": "2ea9f30ed97e7ee919e24f82d05f33c8c49874ff27fb51e11343a356992896fc",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_mbraink_v6993.ko",
+      "size": 203816,
+      "sha256": "403c4511c64edcb0491b76e306c916a02977fa0ecf66e53f8e7ba119650c7af8",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_md_power_throttling.ko",
+      "size": 30872,
+      "sha256": "9525e56bba739d7f35f6d8144461eaf10a08feed82e1c59836b423c762b97c94",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_mdpm.ko",
+      "size": 150576,
+      "sha256": "f28a12b72ade848152a3ca91be1b028ef90054b598a84f1a46f4e4f5a9ac4689",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_pbm.ko",
+      "size": 53376,
+      "sha256": "3aff98cdca9a2430fafd2ba10ec7c9192d4f635bc9b0f720b33ce8e30c6b48f2",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_pcie_smt.ko",
+      "size": 70912,
+      "sha256": "20e4cee66e1954394f71a2e38e7be127be8616ba4522812d149aca6f9924aaad",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_peak_power_budget.ko",
+      "size": 198688,
+      "sha256": "91b9c8e2eab9dda7f20673e5785ae87eb2ea8bc2148b803fbcc77ad6794f73ab",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_pelt_hint.ko",
+      "size": 41416,
+      "sha256": "97bca0cfeb5119ba3dff1630df58d13385f64374e9dc8cfea35e728bd50a09f4",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_perf_common.ko",
+      "size": 128216,
+      "sha256": "5fa2e177d6a9077d2a3d90a7af8392a24dd295f2bade931eab237503e86762c5",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_perf_ioctl.ko",
+      "size": 43232,
+      "sha256": "28d997c632f6621a5adb217d3ea3792da2e7748c3f3eaa9410312e3503ae9a73",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_perf_ioctl_magt.ko",
+      "size": 46056,
+      "sha256": "71821ac9ebcd5c35c41bd6734522454b30e4bac6dad3f313133245ad9c8e5df4",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_qos.ko",
+      "size": 69952,
+      "sha256": "2e7a92231464a9134783751729c8677cd5c57b5f1c98fa4ed26db26a1b6908f9",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_rpmsg_mbox.ko",
+      "size": 20328,
+      "sha256": "86573a2ea68576586f5123c9b7bce09dbc1d21272a3a6dd43f618fcb6a9431c3",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_sbe.ko",
+      "size": 213056,
+      "sha256": "d5916ff846aab30c803c884216839e79be2071ea141d617aad437ca1606529f5",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_sbe_ioctl.ko",
+      "size": 19536,
+      "sha256": "3a7c1abfaf908dcc7f33dd0ddabce63efd95358926f51416234cda7eb19a61bc",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_sec_heap.ko",
+      "size": 83720,
+      "sha256": "5c2b7d445606365f9867997c2f2ca5ab8e7516a7b894296eaa11277ad1436661",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_smmu_qos.ko",
+      "size": 221832,
+      "sha256": "342fb5a2372accbe9b1c3be046aceef49210a9a93bfe4289836dfc8c9e4b1714",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_tinysys_ipi.ko",
+      "size": 33384,
+      "sha256": "422d203506660043057c2fd117189f4d8f7e2b99c79c324a15a0ee3b2fbaf189",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_u_ether.ko",
+      "size": 71520,
+      "sha256": "ee8992f143293261a6d334d7723c517efaead2fe8a58414d7d296f15f48357e5",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_usb_f_rndis.ko",
+      "size": 75752,
+      "sha256": "a1dade53affc37fb0d8179ffdddf2bc5485d96523b684ed6e1f341e97400a0bd",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/mtk_zram.ko",
+      "size": 504664,
+      "sha256": "1956ee2b9be159a8cb11cfddfe50729afd4ef628aca0ac95b6261c9fe5e00d24",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/netfs.ko",
+      "size": 312864,
+      "sha256": "6da4f4fd4d7bae5182641081a10a7f09a8286fbd43a3b93276fc464a8c7b46c9",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/nfcspi.ko",
+      "size": 19672,
+      "sha256": "a2f4e1f205cface4bbd9d318b52ae0e94769715ee6c1c053ccbbe4592b294c67",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/nls_ucs2_utils.ko",
+      "size": 11336,
+      "sha256": "404c35088244398eb5c7e8354b72d3a15c7a0bc23a6a775587e33cb7919fb4d7",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/nvmem-mt635x-efuse.ko",
+      "size": 26552,
+      "sha256": "2942ddb7dd3264a05ba898370afa41c2c9f5ca142782989ff59832de70c4571c",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/pda_drv_mt6993.ko",
+      "size": 172544,
+      "sha256": "96c85e2477459966892a70a5c2fe5d79fb4a9c4104f12a95f118358b906a3c77",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/perf_common_v.ko",
+      "size": 13192,
+      "sha256": "bfb7f5e61f5bde884089cb116f971d9a34885b477f4f2ce8c29ac041de4546d1",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/pmic_dmd.ko",
+      "size": 48368,
+      "sha256": "4ce289e2c9cb6e4a1a570f8e23d044b9616d612d5cc1e3446532e5a47d3c03ca",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/pmic_temp.ko",
+      "size": 37544,
+      "sha256": "02da2618807cbdd2aa1396cafb4618ef58b801c288511185f0e16668e4ac40a7",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/pmsr_v4.ko",
+      "size": 43528,
+      "sha256": "35d531993ec7c6ad561230b66db10b27ace407b54885cc2c757bbce25968ba79",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/powerhal_cpu_ctrl.ko",
+      "size": 71536,
+      "sha256": "7152215e8e2e18862f0e63eaa56e271a22201276a30aa1eaa1cd1825ae5cb716",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/reboot-mode.ko",
+      "size": 18304,
+      "sha256": "39043fbb81c67b3ed2caa442151981bd91adefaf76ab2bf70a751b659a176374",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/rootscan_mtk.ko",
+      "size": 150200,
+      "sha256": "1294f2be038b98ac1ef965e98067c222c3d488734181fcf79230ba8db519d1c6",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/rps_perf.ko",
+      "size": 14320,
+      "sha256": "c5dc1e30a8f677dab32c0cdf47de37f70563d136d93f4575ba98f0d75a9b1eff",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/rscan.ko",
+      "size": 124032,
+      "sha256": "f4586c27c23651b608c508fa8d3c65ed91c7e1b5bd7286f66bfbea24f6e6a2a9",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/sapu.ko",
+      "size": 40768,
+      "sha256": "4f9e0c3a49898fa912de582d18f486890b5b541e6c08e88584e77432e2aec905",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/sc_ic_mtk.ko",
+      "size": 440608,
+      "sha256": "14ffdb6111e5c2f8edf2267885b3e9ad67c9e3c3c40ceba820e0072123a10b2f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/sched_bind.ko",
+      "size": 27056,
+      "sha256": "06cf47d79ad487223d7fe5ca6e2d999c3a6f155a7088d95fb52429c879645883",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/scheduler.ko",
+      "size": 1388448,
+      "sha256": "742a01f54d43c562f3a9deef1bbd7c213fcc6f8867bf34be69f19528ae377963",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/scp.ko",
+      "size": 402112,
+      "sha256": "aa217d90e5aa8188e4bc078ccc63974f113aad3701047f2607beeb58dc5b5ffb",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/sensor3_0.ko",
+      "size": 157136,
+      "sha256": "5c7fe7e166166d6d722e04d2b2f9991ca5c7318d69eb5adeccea9b88a2c354ca",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/sensorhub.ko",
+      "size": 142488,
+      "sha256": "1031078287b56663799d90e4f22b9cc3b974f1cc2d5c2b06b95b5d7b0e7d147c",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/slbc_mt6993.ko",
+      "size": 133608,
+      "sha256": "a7bd02415f59d444bf95afd4c71f8a9b3f39ab0f61a0d7e8c244d12c8b1f9dc8",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/smartpakit.ko",
+      "size": 97040,
+      "sha256": "ee254122231674cabce707ddda4d91342d609d856c5b21351ad76d63caa894f1",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/smartpakit_i2c.ko",
+      "size": 92568,
+      "sha256": "f4acf5f083ba1643008c5db5e37112dbc072e65c1676bcb3fe6ccf76f9a377ec",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/smb_common.ko",
+      "size": 15368,
+      "sha256": "00491c753ed68144f0abbf180d870ec191190f02d1f6b77cf0c1ea068bdfa521",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/snd-soc-audiodsp-common.ko",
+      "size": 220664,
+      "sha256": "ee7fc3513a7de68ca579cdd69eeb067a184a0592c5a50b6587d94c8201b676c1",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/snd-soc-mt6681.ko",
+      "size": 1348928,
+      "sha256": "671737fff41319c40a36a409b87f278c376a3db24e1949f7959a5bd686144d9e",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/snd-soc-mt6993-afe.ko",
+      "size": 1660952,
+      "sha256": "a1f050c0e1b273fcd89b961e855b2891182b31395f00e85b8748bbe59bbf0cc1",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/snd-soc-mtk-common.ko",
+      "size": 122288,
+      "sha256": "1c915e0aa91f561057248a4e245f084e304842c01877676a1e1b844144288cee",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/snd-soc-mtk-scp-ultra.ko",
+      "size": 74048,
+      "sha256": "b59e3a28b3095e0c182e42593a814bdfe5acf41b21736eb610831ec86fee5fc1",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/snd_soc_tfa986x.ko",
+      "size": 335752,
+      "sha256": "b23ffe34b682e08109b6c7d304af30db6cf519224794309c77322e7d8cbb5c80",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/snxxx.ko",
+      "size": 113792,
+      "sha256": "3dc7db3c6383333713c908ea893c0e5310d484577866ad8d92e43363323401b7",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/soc_temp_lvts.ko",
+      "size": 135360,
+      "sha256": "6a8bff20afcffac044a5c9b16e049e8c4fa4b16e0326634bc564f2e4d5794e52",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/spb.ko",
+      "size": 288656,
+      "sha256": "62bfe11ea538e0b6fe095863cccae3c76161427cc0360ec34f6494f4227afb39",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/spmi-mtk-mpu.ko",
+      "size": 24768,
+      "sha256": "b5d92e6f48f2e90793ce28e3d716cc07bf221eb8199b65caecdde6c8213be1e4",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/sspm_v3.ko",
+      "size": 50424,
+      "sha256": "fac10da2dbdb1307c2d2a0480c77796aa6313ca8e8e0dd6d9440ceb70c5a538d",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/stmvl53l4.ko",
+      "size": 245816,
+      "sha256": "3d3a135d8060a949fa9c5806adac4d15221804ee1ded27732f673187f91e422f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/storage_vh.ko",
+      "size": 100056,
+      "sha256": "c57193041cb50245ba8bd05e749ece8309316a5069d17edebbef7b1ecde57def",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/sub_vcm.ko",
+      "size": 42416,
+      "sha256": "c5a94b7b407778d1441f60fcda9abd15c5887b15489b3ead16889a6b5b931e7d",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/sw_sync.ko",
+      "size": 37216,
+      "sha256": "036ebe910c3abaee1fe4b87f72a346648748c84ebfc961fe5d098adfff174e16",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/syscon-reboot-mode.ko",
+      "size": 15688,
+      "sha256": "22ad7f81828270a7b6d9941df4712257e58e67beb9b0879d3303ec4bbb143419",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/t-base-tui.ko",
+      "size": 49976,
+      "sha256": "135ae6fe8011151b81b5d800476a7281da48e359d368a90a3d151103d0e754ce",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/tango32.ko",
+      "size": 26520,
+      "sha256": "81561074c57f7d6505b833d6dbb2e6ad8a1dd23fc9b933f119a36362f8f69986",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/task_turbo_v.ko",
+      "size": 36560,
+      "sha256": "ab02e06446bd29926fd202cf571a28210c2ff687dbf2a010a60abbb482ae4df1",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/thermal-generic-adc.ko",
+      "size": 17608,
+      "sha256": "8b5e71b228c3da522ded171d35f71b9b3c05e66877dd0c545a9f1b4d5a715a04",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/thermal_interface.ko",
+      "size": 162800,
+      "sha256": "823a28ce1ebd266bae1f888069f6a337a9013084f6fde69889c97146a47b5582",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/thermal_trace.ko",
+      "size": 95472,
+      "sha256": "5e90982430cbf9d244bc31bdeffeaf75e71e4ba7a0d32d014c5067cb87cc2c89",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/thp.ko",
+      "size": 987096,
+      "sha256": "4ac52736089d275f2dbb29cdfb1244f832530be8d5d9b362b3714bdec16ad2df",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/tmem_ffa.ko",
+      "size": 175328,
+      "sha256": "7c28d9a6ed7915a6a78eed2d00890dca0e012acc9d09d19abfeedff3ccdab278",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/touch_boost.ko",
+      "size": 69312,
+      "sha256": "bc28c2f65071e46c5422975c94ae081d17fc0e42b0496c621aadb3ff9e2b7d56",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/trace_mmstat.ko",
+      "size": 45936,
+      "sha256": "6166333b368964e57de25e1ec9b7110bfcd57300ecc97f011f2204a2f3ebddf1",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/ts_scp_common.ko",
+      "size": 76584,
+      "sha256": "b3381557e493bdcc377abfe82f0304c636f47ecb749cbee7c42e8e80899e951c",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/tui-common.ko",
+      "size": 15264,
+      "sha256": "1ee9716265439fccd075594290f4c1b0d22a61fcc15ce6df307b0f4f29720142",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/tui.ko",
+      "size": 76848,
+      "sha256": "ed70ad028a6b0318ec099b7dd3ea81ac5cf006af4d11222b9117f791211ac8f9",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/uarthub_drv.ko",
+      "size": 542272,
+      "sha256": "1c3bdfe4752899ba95bf316451489ca8065f9f6ebbd906b9a350b6ad774dadfa",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/uload_ind.ko",
+      "size": 49072,
+      "sha256": "eae725b0809f34289f4872f3b3e0717651476d4b6bbb5c7c6427b6956f0a9557",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/unmovable_zone.ko",
+      "size": 38112,
+      "sha256": "dcbd0be474d05b4eb8adf2c7e7f4ac4fabdbf84439b00d255f0996cd6c1b95d2",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/usb_logger.ko",
+      "size": 66192,
+      "sha256": "9a4c20574748611680496e172c1f1c22293ff5fe6bbe2ff2a219ed69e3684840",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/usb_offload.ko",
+      "size": 266560,
+      "sha256": "a76ccc56e4031f099b910fabc7fb3242d7f507c1634c20e973d4e9504d789a86",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/usb_sram.ko",
+      "size": 47384,
+      "sha256": "15beb891e6a8e6dca94c8ffae57290c35852adb0a0c6c4875b88b0e53bad6c14",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/videogo.ko",
+      "size": 79016,
+      "sha256": "a96173a671ec4a5cc5e33a2f54b26a7ebc723bd3eb1bf44599c2869451b61fe4",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/vip_engine.ko",
+      "size": 196728,
+      "sha256": "53db49cd8b3778358925019394f461ad77d426b67e63666b4a2728fca9cf25d8",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/vtskin_temp.ko",
+      "size": 29024,
+      "sha256": "0a2918b43cceb581b6d12569ce323085749494815bc303beec2cf72f47d41b58",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/wb_pin_mode.ko",
+      "size": 25712,
+      "sha256": "28553e4a8516fbc3cf49c1a86a581d14e6a75116d0400ef0dc65df8af571a5b6",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/widevine_driver.ko",
+      "size": 25608,
+      "sha256": "cd102e8f815a66c569f934aa1b0f8287f8ae5cbcf56babac2d37c7338d40e03f",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/wifi_cooling.ko",
+      "size": 18112,
+      "sha256": "ba57c81440bdd74167355d32ec75861592c9d9955aad7646e326f9ef92a6fdce",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/wla-v2-dbg.ko",
+      "size": 75024,
+      "sha256": "b2b303aa713c385824265820fb910abeee1c67f243c1b61faa7ae7459d079ee4",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/wla-v2.ko",
+      "size": 91928,
+      "sha256": "0a4a60e15322b13481e648637f2b081deecf5af9b6c367162c28d077acf6a331",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/wlan_drv_gen4m_6993_6653.ko",
+      "size": 10423592,
+      "sha256": "ff1a3240e5313db8aa01d8296f5d31038de00ee375896ac22dc3eb6fbf845dec",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/wmt_chrdev_wifi_connac3.ko",
+      "size": 96584,
+      "sha256": "c7701b44e4cb8da26b41026e0851da79b3e741446be9e0a346adf87d7d1ff88e",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    },
+    {
+      "path": "vendor_dlkm/lib/modules/xodata.ko",
+      "size": 32200,
+      "sha256": "071ebde73d1c0b6e00a655e92ef6bdd12d4daa7cbed3c1437abefd6cfd962943",
+      "vermagic": "6.12.38-android16-5-gaa4ef0e883aa-4k SMP preempt mod_unload modversions aarch64"
+    }
+  ],
+  "load_lists": {
+    "system_dlkm/lib/modules/modules.load": "gzvm.ko\nkheaders.ko\nzsmalloc.ko\nnetfs.ko\nlibarc4.ko\nvirtio_pci_modern_dev.ko\nvirtio_pci_legacy_dev.ko\nvirtio_pci.ko\nvirtio_balloon.ko\ncctrng.ko\nvirtio_console.ko\nvirtio_blk.ko\nzram.ko\nopen-dice.ko\nvcpu_stall_detector.ko\nmacsec.ko\nmii.ko\ncan-dev.ko\nvcan.ko\nslcan.ko\nppp_generic.ko\nbsd_comp.ko\nppp_deflate.ko\nppp_mppe.ko\npppox.ko\npptp.ko\nslhc.ko\nwwan.ko\nrtl8150.ko\nr8152.ko\nasix.ko\nax88179_178a.ko\ncdc_ether.ko\ncdc_eem.ko\nusbnet.ko\ncdc_ncm.ko\naqc111.ko\nr8153_ecm.ko\nusbmon.ko\ncdc-acm.ko\nusbserial.ko\nftdi_sio.ko\nptp.ko\nptp_kvm.ko\npwrseq-core.ko\nrust_binder.ko\npps_core.ko\nhci_uart.ko\nbtsdio.ko\nbtbcm.ko\nbtqca.ko\ngnss.ko\n8021q.ko\nvmw_vsock_virtio_transport.ko\ntls.ko\ncan.ko\ncan-raw.ko\ncan-bcm.ko\ncan-gw.ko\nbluetooth.ko\nrfcomm.ko\nhidp.ko\nl2tp_core.ko\nl2tp_ppp.ko\ntipc.ko\ntipc_diag.ko\nrfkill.ko\n9pnet.ko\n9pnet_fd.ko\n6lowpan.ko\nnhc_dest.ko\nnhc_fragment.ko\nnhc_hop.ko\nnhc_ipv6.ko\nnhc_mobility.ko\nnhc_routing.ko\nnhc_udp.ko\nieee802154_6lowpan.ko\nieee802154.ko\nieee802154_socket.ko\nmac802154.ko\nnfc.ko\n",
+    "vendor_dlkm/lib/modules/modules.load": "logger.ko\nmtk_hwz.ko\nmtk_zram.ko\ncard_tray_gpio_detect.ko\nhardware_detector.ko\nfg_ic_mtk.ko\nsc_ic_mtk.ko\nhonor_batt_ct_mtk.ko\nhonor_adapter_protocol_ufcs.ko\nmt6379_ufcs_hn.ko\nhonor_usb_dmd_report_mtk.ko\ncfg80211.ko\nmac80211.ko\nmtk-vow.ko\nmtk-scp-vow.ko\nmtk_aov.ko\nmtk_hcp_isp8s.ko\nmtk-ipesys-me.ko\nmtk_imgsys_cmdq_isp8s.ko\nmtk_imgsys_v4l2.ko\nmtk_imgsys_isp8s.ko\nmtk_img_frm_sync.ko\nnvmem-mt635x-efuse.ko\nmtk-pmic-oc-debug.ko\nccmni.ko\nc2k_usb.ko\nc2k_usb_f_via_atc.ko\nc2k_usb_f_via_ets.ko\nc2k_usb_f_via_modem.ko\nmtk_u_ether.ko\nmtk_usb_f_rndis.ko\nrps_perf.ko\nmtk-pwm.ko\nmtk_irtx_pwm.ko\nsspm_v3.ko\nmtk_mbraink_bridge.ko\nreboot-mode.ko\nsyscon-reboot-mode.ko\nspmi-mtk-mpu.ko\nmtk_dynamic_loading_throttling.ko\nmtk_md_power_throttling.ko\nmtk_gpu_power_throttling.ko\nmtk_apu_power_throttling.ko\nmtk_peak_power_budget.ko\nmtk_pbm.ko\nmtk_cg_peak_power_throttling.ko\nmtk_mdpm.ko\nmtk_gpueb.ko\nmtk_ghpm_mt6993.ko\nmtk_gpu_hal.ko\nmtk_gpufreq_wrapper.ko\nmtk_gpufreq_mt6993.ko\nmtk_gpu_iommu_mt6993.ko\nged.ko\nmtk_ged_mt6993.ko\nmtk_gpu_pdma_mt6993.ko\nmali_prot_alloc_mt6993_a16w.ko\nmali_mgm_mt6993_a16w.ko\nmali_kbase_mt6993_a16w.ko\nadsp-v3.ko\naudio_ipi.ko\nmtk-scp-audiocommon.ko\nusb_offload.ko\nusb_sram.ko\nusb_logger.ko\nmtk-sp-spk-amp.ko\nsmartpakit.ko\nsmartpakit_i2c.ko\nsnd_soc_tfa986x.ko\ndsm_audio.ko\nadsp_shared_mem.ko\nadsp_misc.ko\nsnd-soc-mtk-common.ko\nsnd-soc-audiodsp-common.ko\nsnd-soc-mt6681.ko\nsnd-soc-mt6993-afe.ko\nmtk-scp-ultra.ko\nsnd-soc-mtk-scp-ultra.ko\nmtk-soc-offload-common.ko\nmt6993-mt6681.ko\nmddp.ko\nsoc_temp_lvts.ko\npmic_temp.ko\nthermal-generic-adc.ko\nthermal_trace.ko\nboard_temp.ko\nvtskin_temp.ko\nmd_cooling_all.ko\ncharger_cooling.ko\nbacklight_cooling.ko\nthermal_interface.ko\nwifi_cooling.ko\nmtk_gpu_qos.ko\nmt6681-accdet.ko\nmtk_jpeg.ko\nmtk-vcodec-common.ko\nmtk-vcodec-sys-api.ko\nmtk-vcodec-dec.ko\nmtk-vcodec-enc.ko\njpeg-driver.ko\nvideogo.ko\ncpufreq_sugov_ext.ko\nscheduler.ko\nmtk_core_ctl.ko\nthp.ko\nmtk_em.ko\ncpuqos_v3.ko\ncpuqos_ext.ko\neas_ext.ko\nccidvfs.ko\nmtk_rpmsg_mbox.ko\nmtk-mbox.ko\nmtk_tinysys_ipi.ko\nscp.ko\nmcupm_v3.ko\nfhctl.ko\nmtk_ccd_remoteproc.ko\nccd_rpmsg.ko\ndsm_camera.ko\nmtk-cam-isp8s.ko\nimgsensor-glue_isp8s.ko\nimgsensor_isp8s.ko\nmtk-swpm-isp-wrapper.ko\ncamera_eeprom_v4l2.ko\nmtk-swpm.ko\nmtk-swpm-dbg-common-v1.ko\nmtk-swpm-dbg-v6993.ko\nmtk-swpm-isp-dbg-v6993.ko\nmtk-swpm-disp-dbg-v6993.ko\nmtk-swpm-mml-dbg-v6993.ko\nmtk-swpm-audio-dbg-v6993.ko\nuarthub_drv.ko\nconnadp.ko\nconnfem.ko\nconnscp.ko\nconninfra.ko\nwmt_chrdev_wifi_connac3.ko\nwlan_drv_gen4m_6993_6653.ko\nhn_wifi_link_monitor.ko\nbluetooth.ko\nbtmtk_uart_unify.ko\ngps_drv_dl_v062.ko\nmtk-composite.ko\nflashlight.ko\nleds-mt6379.ko\naw3644.ko\nlm3644.ko\nktd2688.ko\nmtk_qos.ko\npowerhal_cpu_ctrl.ko\ntouch_boost.ko\nmtk_ioctl_touch_boost.ko\nmtk_ioctl_powerhal.ko\ncamera_af_media.ko\nmain_vcm.ko\nmain2_vcm.ko\nmain3_vcm.ko\nmain4_vcm.ko\nak7377.ko\nak7316.ko\njd5517.ko\nak7316_tele.ko\nstmvl53l4.ko\nsub_vcm.ko\npda_drv_mt6993.ko\nslbc_mt6993.ko\nmtk_cm_ipi.ko\nmtk_cm_mgr.ko\nmtk_cm_mgr_mt6993.ko\ngz_trusty_mod.ko\ngz_ipc_mod.ko\ngz_irq_mod.ko\ngz_virtio_mod.ko\ngz_tz_system.ko\ngz_main_mod.ko\ngz_log_mod.ko\ntmem_ffa.ko\nmtk_sec_heap.ko\nmtk_heap_refill.ko\nmtk_heap_debug.ko\nmtk-smmuv3-pmu.ko\nmtk-smmuv3-mpam-mon.ko\nmtk_smmu_qos.ko\napu_top.ko\napusys.ko\napu_aov.ko\nsapu.ko\ncmdq-sec-drv.ko\nmtk_ccuv.ko\nt-base-tui.ko\nwla-v2.ko\nwla-v2-dbg.ko\nmtk-lpm.ko\nmtk-lpm-dbg-common-v2.ko\nmtk-lpm-plat-v2.ko\nmtk-lpm-dbg-v6993.ko\nlpm-gov-MHSP.ko\natf_logger.ko\nmtk_perf_ioctl.ko\nmtk_fpsgo_v8.ko\nmtk_pelt_hint.ko\nfpsgo.ko\nmtk_sbe.ko\nmtk_sbe_ioctl.ko\nmtk_game.ko\ngame.ko\nvip_engine.ko\ntask_turbo_v.ko\nmtk_perf_common.ko\nperf_common_v.ko\nwidevine_driver.ko\nuload_ind.ko\nload_track.ko\nmtk_disp_sec.ko\nclk-dbg-mt6993.ko\nmtk_pcie_smt.ko\nmtk_perf_ioctl_magt.ko\nmtk-dvfsrc-start.ko\nmtk-ips-helper.ko\nccci_util_lib.ko\nccci_auxadc.ko\nccci_ccif.ko\nccci_dpmaif.ko\nccci_md_all.ko\nccci_fsm_scp.ko\njank_detection_common_utils.ko\njank_detection_core.ko\nkcompressd.ko\ntrace_mmstat.ko\nfrs.ko\nmtk_c2ps.ko\nc2ps_perf_ioctl.ko\nmtk_mbraink.ko\nmtk_mbraink_v6993.ko\ndsm_core.ko\npmic_dmd.ko\nhonor_hung_task.ko\nisp_pspm_ioctl.ko\nmicrodump.ko\ncombine_key.ko\nhf_manager.ko\nspb.ko\nhn_haptics_wrapper.ko\naw_haptic_hv.ko\nclk-disable-unused.ko\nsensorhub.ko\nmmtrack.ko\nhn_memcheck.ko\nhonor_debug_symbol.ko\nsensor3_0.ko\nflp.ko\nmotion.ko\nactivity_recognition.ko\nfingerprint.ko\nmtk_aod_scp.ko\ncamera_utils.ko\ncamera_pmic.ko\nkernel_stp.ko\ncpuinfo_ext.ko\ntango32.ko\nhonor_ir.ko\nhn_shell_temp.ko\nrscan.ko\neima.ko\nxodata.ko\nrootscan_mtk.ko\ntui.ko\nmem_lend_mgr.ko\nhn_ioprio.ko\nioinfo.ko\niomeasure.ko\nstorage_vh.ko\nwb_pin_mode.ko\nfmps.ko\ncifs.ko\nsmb_common.ko\ndns_resolver.ko\nnls_ucs2_utils.ko\nnetfs.ko\nunmovable_zone.ko\nhme.ko\nmm_misc.ko\nhn_kpg.ko\nhn_kpwd.ko\nhn_kstate.ko\nhn_kcollect.ko\nhn_procnetstat.ko\nhn_procdatactrl.ko\nhn_cachedisk.ko\nhwcam_cfg.ko\ndubai_common.ko\ndubai_mtk.ko\nhn_network_aware_gki.ko\nhn_async_binder_rt_gki.ko\nhn_ifb.ko\nhn_net_booster.ko\nhn_net_bastet.ko\nhn_netd.ko\nhn_net_opt.ko\nsnxxx.ko\nnfcspi.ko\nbtdsm.ko\nhnblesensorhub.ko\nsw_sync.ko\ncpu-netlink.ko\nhonor_qos_sched_gki.ko\nsched_bind.ko\nchr_misc_device.ko\nhn_emcom.ko\n"
+  }
+}
