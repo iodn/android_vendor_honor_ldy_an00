@@ -2,6 +2,56 @@
   "firmware": "10.0.0.113(C00E100R101P1)",
   "inputs": [
     {
+      "path": "proprietary/boot/Image.lz4",
+      "size": 19084336,
+      "sha256": "5dfcbd535742b34abb7bb9960339fa031393669fbacec0ecd0cd9d2560cb8517"
+    },
+    {
+      "path": "proprietary/boot/boot.img",
+      "size": 67108864,
+      "sha256": "06e2c95bbce04724c7ca3b4e5b7953a2ed3169ddceb8346de9078b2c31312702"
+    },
+    {
+      "path": "proprietary/boot/dtbo.img",
+      "size": 3645008,
+      "sha256": "648b539dcfd1eec58571101ae7a33a07c40c6914f744a2b5aa4ed53526aaaf4d"
+    },
+    {
+      "path": "proprietary/boot/init_boot.img",
+      "size": 8388608,
+      "sha256": "448204021b7aae3b3fb2ad8fbb8bee3e1f91854859f7671f74fcb3861782c91e"
+    },
+    {
+      "path": "proprietary/boot/vendor_boot.img",
+      "size": 100663296,
+      "sha256": "b583f59c0161cc178adde6fe3af66efb2e74406406f0255aaf4154a8485099c2"
+    },
+    {
+      "path": "proprietary/system/etc/native_packages.xml",
+      "size": 6992,
+      "sha256": "288770066a567e156de5c79fde593e0d09ff5255afe30af2d0c927a7b780a4ca"
+    },
+    {
+      "path": "proprietary/system/lib64/libc_secshared.so",
+      "size": 64080,
+      "sha256": "e7b306d75a6bdb35d3d73df52a76ccf2b6dd24d8d588dbbb8369b18a63ac0ee0"
+    },
+    {
+      "path": "proprietary/system/lib64/vendor.honor.hardware.libteec-V2-ndk.so",
+      "size": 85840,
+      "sha256": "838435c93158f4967102e2ff076bcdd72b79c305898ccc53abc87090cbaca166"
+    },
+    {
+      "path": "proprietary/system/lib64/vendor.honor.hardware.libteec@3.0.so",
+      "size": 173536,
+      "sha256": "a068744d723a3affb4110bfe4b713c4fc3b6c48819bdd5c982a92c30ddf28a90"
+    },
+    {
+      "path": "proprietary/system_ext/bin/tee_auth_daemon",
+      "size": 125144,
+      "sha256": "00304550c57e2a69c5a8948d6c3bb7c54531159b1369a79c3c2bfa6f4ed20624"
+    },
+    {
       "path": "proprietary/system_ext/bin/vtservice",
       "size": 14352,
       "sha256": "80c62007d3649c14c919b7e396fcbbdccefc6a45a3230ed49b1a06fe12ea6426"
@@ -10,6 +60,11 @@
       "path": "proprietary/system_ext/etc/init/init.vtservice.rc",
       "size": 390,
       "sha256": "9df51aa74b0ed175bcd008e29a9daf88060abeb36eb3bd5a593a66b7edbeb33f"
+    },
+    {
+      "path": "proprietary/system_ext/etc/native_packages.xml",
+      "size": 4512,
+      "sha256": "306522d388f09eba3579bac2d09b761a51d4453369c79160fd8dd442b3217b65"
     },
     {
       "path": "proprietary/system_ext/lib64/libcomutils.so",

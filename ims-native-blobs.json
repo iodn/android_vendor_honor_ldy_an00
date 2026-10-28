@@ -1,5 +1,5 @@
 {
-  "scope": "Unselected source proposal; no normal Soong/finalimage/runtime qualification",
+  "scope": "Framework-side MediaTek IMS/VT input inventory for the supported firmware baseline.",
   "base_vendor": "8be39e",
   "elf_review_sha256": "aca18f421705394cd68ef1a6f77949ebb182a9db59083cd3fca534156444d4ae",
   "roots": [

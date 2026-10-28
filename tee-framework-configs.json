@@ -1,6 +1,5 @@
 {
-  "scope": "Unmodified current configuration containers selected by stock kernel6.12; request-path dependency, not proven daemon startup fatal prerequisite. Staged only; not included in active image.",
-  "evidence": "artifacts/tee-native-config-callpath-review.txt",
+  "scope": "Matching stock framework-side TEE configuration inputs.",
   "entries": [
     {
       "source": "system/etc/native_packages.xml",
