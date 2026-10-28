@@ -1,0 +1,10 @@
+name: Validate vendor inputs
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m unittest discover -s tools -p 'test_*.py' -v
