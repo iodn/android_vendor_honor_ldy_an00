@@ -40,3 +40,18 @@ system_ext/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.utils-V1-ndk.so
+
+# Private SWS algorithm and deterministic tuning inputs.
+product/lib64/lib64xisten7_3.so
+odm/etc/sws/sws_config.xml
+odm/etc/sws/sws_config_vmap.xml
+odm/etc/sws/spaConfig.bin
+odm/etc/sws/sdcConfig.bin
+odm/etc/sws/lph_config.bin
+odm/etc/sws/tws_config1.bin
+odm/etc/sws/tws_config2.bin
+odm/etc/sws/sur_config.bin
+odm/etc/sws/teh_config.bin
+odm/etc/sws/ascconfig1.bin
+odm/etc/sws/ascconfig2.bin
+odm/etc/sws/actconfig1.bin

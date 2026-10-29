@@ -1,0 +1,106 @@
+{
+  "firmware": "10.0.0.113(C00E100R101P1)",
+  "inputs": [
+    {
+      "source": "/product/lib64/lib64xisten7_3.so",
+      "proprietary_path": "proprietary/product/lib64/lib64xisten7_3.so",
+      "module": "honor_sws0730_engine",
+      "destination_partition": "system_ext",
+      "size": 527072,
+      "sha256": "990d9d9cff53e39d60aa37e254341726484786c4981c3d863ce3a54946bdd600"
+    },
+    {
+      "source": "/odm/etc/sws/sws_config.xml",
+      "proprietary_path": "proprietary/odm/etc/sws/sws_config.xml",
+      "size": 1354030,
+      "sha256": "28d1dbdc639d5112e9267545ba28d4aea8ce73792ee2f815117f3063480dbf43",
+      "role": "bundle_build_input_only"
+    },
+    {
+      "source": "/odm/etc/sws/sws_config_vmap.xml",
+      "proprietary_path": "proprietary/odm/etc/sws/sws_config_vmap.xml",
+      "size": 37180,
+      "sha256": "ca723638a6a58450965694bbd02dae9575b340b844c4c486bae2117c99ff867f",
+      "role": "bundle_build_input_only"
+    },
+    {
+      "source": "/odm/etc/sws/spaConfig.bin",
+      "proprietary_path": "proprietary/odm/etc/sws/spaConfig.bin",
+      "size": 22572,
+      "sha256": "5a514090bb3a54198465fb978b8a6369a1ade9f684b44ee7d8eb250a238bdeaf",
+      "role": "bundle_build_input_only"
+    },
+    {
+      "source": "/odm/etc/sws/sdcConfig.bin",
+      "proprietary_path": "proprietary/odm/etc/sws/sdcConfig.bin",
+      "size": 24630,
+      "sha256": "c43db77a74abd513c865fff73b8f85fca8911572d234194c0f7b0836410add10",
+      "role": "bundle_build_input_only"
+    },
+    {
+      "source": "/odm/etc/sws/lph_config.bin",
+      "proprietary_path": "proprietary/odm/etc/sws/lph_config.bin",
+      "size": 82120,
+      "sha256": "89b7bf48372dd657ad6c8cceeb138d8a6d2e72923b3ee7d431339c5c20daabb6",
+      "role": "bundle_build_input_only"
+    },
+    {
+      "source": "/odm/etc/sws/tws_config1.bin",
+      "proprietary_path": "proprietary/odm/etc/sws/tws_config1.bin",
+      "size": 131360,
+      "sha256": "8bc56ec58a3759c9c0571e8d7148c816f237e0e4c7ac7aa52c6345f3e39488da",
+      "role": "bundle_build_input_only"
+    },
+    {
+      "source": "/odm/etc/sws/tws_config2.bin",
+      "proprietary_path": "proprietary/odm/etc/sws/tws_config2.bin",
+      "size": 131360,
+      "sha256": "e049313921886e78eaa873a4cb641a80bb1670082464f5e68ff678651703885a",
+      "role": "bundle_build_input_only"
+    },
+    {
+      "source": "/odm/etc/sws/sur_config.bin",
+      "proprietary_path": "proprietary/odm/etc/sws/sur_config.bin",
+      "size": 5120,
+      "sha256": "b854e9a5a7908bdcd4e4b8fbb1b56003c51a6cf0fbe52396b0fe1f04f1ea506b",
+      "role": "bundle_build_input_only"
+    },
+    {
+      "source": "/odm/etc/sws/teh_config.bin",
+      "proprietary_path": "proprietary/odm/etc/sws/teh_config.bin",
+      "size": 19200,
+      "sha256": "8b76fe27a58a6621c9aa3cdf8d7079fe3f8d01a77d6c047d5d236bff85330c18",
+      "role": "bundle_build_input_only"
+    },
+    {
+      "source": "/odm/etc/sws/ascconfig1.bin",
+      "proprietary_path": "proprietary/odm/etc/sws/ascconfig1.bin",
+      "size": 4106,
+      "sha256": "f99ee076d6a0137f69297c66346879f60666c996a36e394b30f415e6aeb40bd4",
+      "role": "bundle_build_input_only"
+    },
+    {
+      "source": "/odm/etc/sws/ascconfig2.bin",
+      "proprietary_path": "proprietary/odm/etc/sws/ascconfig2.bin",
+      "size": 8210,
+      "sha256": "ab78240f74d36008f69aa96eadd9bf034210aa3c95ef9c347eac3f6e77c21f25",
+      "role": "bundle_build_input_only"
+    },
+    {
+      "source": "/odm/etc/sws/actconfig1.bin",
+      "proprietary_path": "proprietary/odm/etc/sws/actconfig1.bin",
+      "size": 1200,
+      "sha256": "bb4856d37c67170b8c31b8d2a0fefd7920ef16c1301b68f00368dcda4af3f1d0",
+      "role": "bundle_build_input_only"
+    }
+  ],
+  "generated": {
+    "proprietary_path": "proprietary/system_ext/etc/honor/sws0730.bin",
+    "module": "honor_sws0730_tuning",
+    "destination_partition": "system_ext",
+    "size": 914208,
+    "sha256": "290f047b22f7fe9790d1e254fe05e0954d48d10ce02c77f7285484a804239d17",
+    "generator": "tools/pack_sws_tuning.py"
+  },
+  "engine_soname": "lib64honorsound73.so"
+}

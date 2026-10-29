@@ -21,3 +21,16 @@ userspace alone does not update those components or their security patch coverag
 Use the pinned [manifest](https://github.com/iodn/android_manifest_ldy_an00) and
 [device tree](https://github.com/iodn/android_device_honor_ldy_an00) together.
 Preserve existing file-level licensing and review binary redistribution terms.
+
+## Stock audio inputs
+
+Prepare the pinned engine and tuning from extracted matching firmware partitions:
+
+```sh
+python3 tools/prepare_audio_sws.py --product-root /path/to/product --odm-root /path/to/odm
+python3 tools/verify_audio_sws_inputs.py
+```
+
+The generator verifies all inputs and the resulting tuning bundle.
+`audio-sws-framework.mk` defines the optional engine and tuning packages;
+framework processing is controlled separately.

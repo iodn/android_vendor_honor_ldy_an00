@@ -53,6 +53,17 @@ class InputInventoryTests(unittest.TestCase):
         self.assertEqual(public - {Path(item["source"]).name for item in blobs}, set())
         self.assertFalse(any(name.startswith("vendor.") for name in public))
 
+    def test_audio_sws_inventory_matches_catalogue(self):
+        inventory = json.loads((ROOT / "audio-sws-inputs.json").read_text())
+        entries = inventory["inputs"] + [inventory["generated"]]
+        self.assertEqual(len(entries), 14)
+        self.assertEqual(len({item["proprietary_path"] for item in entries}), 14)
+        for item in entries:
+            entry = self.inputs[item["proprietary_path"]]
+            self.assertEqual(entry["size"], item["size"])
+            self.assertEqual(entry["sha256"], item["sha256"])
+        self.assertEqual(inventory["engine_soname"], "lib64honorsound73.so")
+
     def test_npu_soname_exception_is_exact(self):
         text = (ROOT / "Android.bp").read_text()
         blocks = re.findall(r"cc_prebuilt_library_shared\s*\{.*?\n\}", text, re.S)

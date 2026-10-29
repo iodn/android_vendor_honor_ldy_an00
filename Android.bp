@@ -957,3 +957,25 @@ cc_prebuilt_library_shared {
         "libdl",
     ],
 }
+
+// Honor SWS0730 algorithm engine; called through its C API.
+cc_prebuilt_library_shared {
+    name: "honor_sws0730_engine",
+    stem: "lib64honorsound73",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/product/lib64/lib64xisten7_3.so"],
+    strip: { none: true },
+    stl: "none",
+    system_shared_libs: [],
+    shared_libs: ["libc", "libm", "libstdc++", "libdl"],
+    check_elf_files: true,
+}
+
+prebuilt_etc {
+    name: "honor_sws0730_tuning",
+    system_ext_specific: true,
+    src: "proprietary/system_ext/etc/honor/sws0730.bin",
+    sub_dir: "honor",
+    filename: "sws0730.bin",
+}
