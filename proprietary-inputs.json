@@ -67,6 +67,26 @@
       "sha256": "306522d388f09eba3579bac2d09b761a51d4453369c79160fd8dd442b3217b65"
     },
     {
+      "path": "proprietary/system_ext/lib64/libapuwareapusys_v2.mtk.so",
+      "size": 143768,
+      "sha256": "88ab4794504eafe5397be3450683e552300e5015a49021da8f8360d9f59f558f"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libapuwarehmp.mtk.so",
+      "size": 23424,
+      "sha256": "df87f04a3676f6872031e133770359c013115266cb1a768a36111f0723df7424"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libapuwareutils.mtk.so",
+      "size": 15024,
+      "sha256": "0f12bee470a0d54d98ad61a5b0cee3495c0aeedd6cfb0a20779e0ff6e33fabf5"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libapuwareutils_v2.mtk.so",
+      "size": 31744,
+      "sha256": "f43d703285a2c328f69ba067000049aeb9e1c183bfcda650a3f46ff282ae13a6"
+    },
+    {
       "path": "proprietary/system_ext/lib64/libcomutils.so",
       "size": 27912,
       "sha256": "2dd7ed68a69c173d31041b46d2de34a2ccef2eabafd7e5ec80ba104ec4f2ad13"
@@ -102,6 +122,21 @@
       "sha256": "6955143026ee7b6858dfcbc900a06143233c42e22fe329c4646eb0c28f7b9f36"
     },
     {
+      "path": "proprietary/system_ext/lib64/libmvpu_engine_pub.mtk.so",
+      "size": 5688,
+      "sha256": "971f5e3b22b2de6d84ce5ffcbaa4a2e2dd0ec441767ff2c25aa91b7f36f6ec9d"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libmvpu_pattern_pub.mtk.so",
+      "size": 5688,
+      "sha256": "dd0bf4ea3e6ce31c3cd09892422a199fa60827e1b9ea6bb983c5e21f0c84b2ab"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so",
+      "size": 13659272,
+      "sha256": "7d6a717154b29f511fa7af8808c086ca67b0fbc580707af7c015ab9ccb0c01f6"
+    },
+    {
       "path": "proprietary/system_ext/lib64/libsignal.so",
       "size": 18968,
       "sha256": "963da611a7ad92de3d21a883f93e292648374b83b26766e9d04835a5b079adbe"
@@ -130,6 +165,41 @@
       "path": "proprietary/system_ext/lib64/libvt_avsync.so",
       "size": 22832,
       "sha256": "8d33c56ec6462e40c6f7bb1677eee9775bb293e5edb150250fecb5c820aed314"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys-V5-ndk.so",
+      "size": 118992,
+      "sha256": "1f5ee428a9301d0ed4d71365fd50038a398860ba459e0b7a89c48edf0a23768e"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so",
+      "size": 239584,
+      "sha256": "6f9680825768e88cfac7c1d57d2a7fafbe8532de84f651716f542b9feca32782"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so",
+      "size": 135744,
+      "sha256": "7e34b4f3faca7d4daf9783da436b0ab4c2958c4ae37c6aded243dd1852ec5b14"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so",
+      "size": 98352,
+      "sha256": "6637edff05fc4e4660a47c91c2e422934d9de14beb3ddb6b0ae0a0f2c0a2b343"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils-V1-ndk.so",
+      "size": 44480,
+      "sha256": "c61b13b975f6e55ea6ea0c830357addae8dad338e0d57c3c815b1154d06a4092"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so",
+      "size": 81896,
+      "sha256": "a17b77137cded501877b6bf4d5d85ea3dffcdd7943aa863cf9ebc0693da8e591"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so",
+      "size": 115168,
+      "sha256": "6238537061259729752e15aa38dbb18f3b8747b35d86f4eadaa1719967b0b9bb"
     },
     {
       "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so",

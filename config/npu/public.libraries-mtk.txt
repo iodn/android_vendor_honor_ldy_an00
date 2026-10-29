@@ -1,0 +1,7 @@
+libneuronusdk_adapter.mtk.so
+libapuwareapusys_v2.mtk.so
+libapuwarehmp.mtk.so
+libapuwareutils.mtk.so
+libapuwareutils_v2.mtk.so
+libmvpu_engine_pub.mtk.so
+libmvpu_pattern_pub.mtk.so
