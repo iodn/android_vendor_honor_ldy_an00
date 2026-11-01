@@ -4,8 +4,8 @@ Vendor build definitions and proprietary-input inventories for unofficial
 LineageOS 24.0 / Android 17. Android source path: `vendor/honor/ldy_an00`.
 Branch: `lineage-24.0`. Tested input baseline: `10.0.0.113(C00E100R101P1)`. Matching inputs are required.
 
-GhostLock's vulnerable code was also found in **10.0.0.170**; older releases may
-be affected. Exploit vulnerability does not make vendor inputs interchangeable.
+See the [GhostLock firmware table](https://github.com/iodn/honor-ldy-an00-ghostlock#firmware-downloads-and-ghostlock-status) for vulnerable versions.
+Exploit vulnerability does not make vendor inputs interchangeable.
 
 ## Contents
 
