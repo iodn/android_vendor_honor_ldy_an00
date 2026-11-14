@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "device": "LDY-AN00",
+  "baseline": "10.0.0.113(C00E100R101P1)",
+  "scope": "Offline stock GPU/APU integration trace; application reviews and performance claims excluded.",
+  "gpu": {
+    "module": {
+      "path": "vendor_dlkm/lib/modules/mali_kbase_mt6993_a16w.ko",
+      "sha256": "fab8fd8fc658dddc03140a24da9d618aef096b5180132e8a7b07b31721a9a988"
+    },
+    "device": "/dev/mali0",
+    "selinux_type": "gpu_device",
+    "evidence": [
+      {
+        "function": "kbase_ioctl",
+        "address": "0x14b018",
+        "behavior": "Typed ioctl dispatch with userspace copies and version handshake."
+      },
+      {
+        "function": "kbase_device_firmware_init_once",
+        "address": "0x1ba180",
+        "behavior": "Serialized one-time firmware initialization, power-context active/idle pairing and error cleanup."
+      },
+      {
+        "function": "kbase_csf_firmware_load_init",
+        "address": "0x1f03b8",
+        "behavior": "Optional DT firmware-name override, request_firmware, header and record validation, release_firmware."
+      }
+    ],
+    "firmware": {
+      "path": "vendor/firmware/mali_csffw.bin",
+      "size": 339968,
+      "sha256": "e11d5ebf229a126c4497317aff64a6e56e702baef66adfe7d9f5453fa7236e0c"
+    },
+    "userspace": {
+      "opencl_loader_sha256": "e02294ba34ebb44786f62201d506ac5ac451f74b005d0c6eb1f9d588b1ee5045",
+      "loader_function": "khrIcdOsVendorsEnumerate@0x11b8b0",
+      "icd_candidates": [
+        "/system/lib64/egl/libGLES_mali.so",
+        "/system/vendor/lib64/egl/libGLES_mali.so",
+        "/system/vendor/lib64/libPVROCL.so"
+      ],
+      "driver_path": "vendor/lib64/egl/mt6993/libGLES_mali.so",
+      "driver_sha256": "92d7797707cb3482bfbd3b11951d90ce15add220bc7803794e89ed4097b51d56"
+    }
+  },
+  "apu": {
+    "module": {
+      "path": "vendor_dlkm/lib/modules/apusys.ko",
+      "sha256": "75331adbd6c3e07af2f8425fb8dff209bbaccf408728f1d91e22931658d4f82c"
+    },
+    "device": "/dev/apusys",
+    "selinux_type": "apusys_device",
+    "ioctl_dispatch": {
+      "function": "mdw_ioctl",
+      "address": "0x147480",
+      "commands": {
+        "0xc0284120": "handshake",
+        "0xc0304121": "memory",
+        "0xc0f04122": "command",
+        "0xc0204123": "utility"
+      }
+    },
+    "platform": {
+      "dt_compatible": "mediatek,mt6993-apusys_rv",
+      "match_flags": "0x2e87db",
+      "functions": {
+        "probe": "0x1b3698",
+        "init": "0x1babe0",
+        "start": "0x1baf14",
+        "memmap": "0x1bb5dc"
+      },
+      "secure_monitor_function": "0xc200051e",
+      "observed_operations": {
+        "0x2c": "platform init",
+        "0x1e": "APUMMU setup",
+        "0xa": "boot setup",
+        "0xb": "start processing"
+      },
+      "interpretation": "Matched bit-3 path delegates these operations to secure firmware. rproc_alloc names mrv.elf, but that alone does not establish a filesystem firmware dependency. The legacy mdla_boot.bin/mdla_main.bin loader is not proof of the active MT6993 path."
+    },
+    "services": {
+      "binder_type": "hal_neuralnetworks_service",
+      "hwbinder_type": "hal_neuralnetworks_hwservice",
+      "server_domain": "mtk_hal_neuralnetworks",
+      "interfaces": [
+        "APUWare APUSYS HIDL 2.0/2.1 and AIDL V5",
+        "APUWare HMP HIDL 1.0",
+        "APUWare Utils HIDL 1.0/2.0 and AIDL V1",
+        "MediaTek neuronservice and neural-network shim services"
+      ]
+    }
+  },
+  "build_contract": {
+    "inventory": "npu-framework-blobs.json",
+    "required_libraries": 14,
+    "public_library_list": "config/npu/public.libraries-mtk.txt",
+    "public_libraries": 7,
+    "private_interface_dependencies": 7,
+    "destination": "system_ext",
+    "abi": "arm64",
+    "verifier": "tools/verify_npu_inputs.py",
+    "tests": "tools/test_npu_inputs.py",
+    "caller": "device/honor/ldy_an00/device.mk inherits npu-framework.mk",
+    "adapter_soname": "libneuronusdk_adapter.mtk.so.8"
+  },
+  "access_boundary": [
+    "Device-node DAC modes do not bypass SELinux.",
+    "Public native-library exposure, linker namespace access, Binder service discovery and device access are separate gates.",
+    "Applications targeting Android 12 or newer must declare required public native libraries.",
+    "The APU SDK adapter and offline Neuron runtime are different APIs; their versions are not interchangeable."
+  ],
+  "implementation": "Validate complete NPU library inventory, public-list boundary and installation, prebuilt source/stem/ABI/partition, product selection, exact blob hashes and adapter SONAME.",
+  "limitations": [
+    "No current-device tests or model benchmarks in this review.",
+    "No claim that every application uses GPU/APU or avoids CPU fallback.",
+    "Secure-world APU firmware internals and complete ioctl semantics are not reconstructed.",
+    "Keep matched kernel modules, DT, GPU firmware, vendor drivers and secure firmware together."
+  ]
+}

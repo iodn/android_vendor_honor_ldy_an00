@@ -24,6 +24,19 @@ The generator verifies all inputs and the resulting tuning bundle.
 `audio-sws-framework.mk` defines the optional engine and tuning packages;
 framework processing is controlled separately.
 
+## GPU and AI inputs
+
+The [accelerator contract](stock-accelerator-contract.json) records the matched
+Mali/APU drivers, firmware, service interfaces and application access boundaries.
+Validate the complete 14-library NPU cohort before building:
+
+~~~sh
+python3 tools/verify_npu_inputs.py
+python3 -m unittest discover -s tools -p 'test_npu_inputs.py'
+~~~
+
+These checks validate packaging, not model acceleration or performance.
+
 ## Input reference
 
 - `Android.bp` and makefiles: retained framework-side vendor integration.
