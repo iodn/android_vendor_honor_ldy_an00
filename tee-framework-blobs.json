@@ -4,31 +4,31 @@
     "proprietary_path": "proprietary/system/lib64/libc_secshared.so",
     "module": "honor_libc_secshared",
     "destination_partition": "system_ext",
-    "sha256": "e7b306d75a6bdb35d3d73df52a76ccf2b6dd24d8d588dbbb8369b18a63ac0ee0",
-    "size": 64080
+    "sha256": "d57a98c99aecc9c20235cd0f92f9cbef0a66361cf2950bea7635dbba707eaf5c",
+    "size": 84560
   },
   {
     "source": "/system/lib64/vendor.honor.hardware.libteec@3.0.so",
     "proprietary_path": "proprietary/system/lib64/vendor.honor.hardware.libteec@3.0.so",
     "module": "honor_libteec_hidl",
     "destination_partition": "system_ext",
-    "sha256": "a068744d723a3affb4110bfe4b713c4fc3b6c48819bdd5c982a92c30ddf28a90",
-    "size": 173536
+    "sha256": "976fa71304987f73fff9940f1176cdaefeef9f49ccc2a652c35484480b9236f2",
+    "size": 185760
   },
   {
     "source": "/system/lib64/vendor.honor.hardware.libteec-V2-ndk.so",
     "proprietary_path": "proprietary/system/lib64/vendor.honor.hardware.libteec-V2-ndk.so",
     "module": "honor_libteec_ndk",
     "destination_partition": "system_ext",
-    "sha256": "838435c93158f4967102e2ff076bcdd72b79c305898ccc53abc87090cbaca166",
-    "size": 85840
+    "sha256": "b97b143bce191325d28bab98e4428d7bc43ec038748adc072a9f5938c489d969",
+    "size": 102208
   },
   {
     "source": "/system_ext/bin/tee_auth_daemon",
     "proprietary_path": "proprietary/system_ext/bin/tee_auth_daemon",
     "module": "honor_tee_auth_daemon",
     "destination_partition": "system_ext",
-    "sha256": "00304550c57e2a69c5a8948d6c3bb7c54531159b1369a79c3c2bfa6f4ed20624",
-    "size": 125144
+    "sha256": "be0b1499151984c43b5f3046bff01c4ed2da4fe168c493494732ef6f691e3871",
+    "size": 133280
   }
 ]

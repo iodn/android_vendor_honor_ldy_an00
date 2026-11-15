@@ -4,24 +4,24 @@
     "proprietary_path": "proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so",
     "module": "honor_npu_libneuronusdk_adapter_mtk",
     "destination_partition": "system_ext",
-    "sha256": "7d6a717154b29f511fa7af8808c086ca67b0fbc580707af7c015ab9ccb0c01f6",
-    "size": 13659272
+    "sha256": "6625f9acf9afea6550d6d54ea8548c1dacfcafb8bc28d8beaf83987505b2c427",
+    "size": 13698400
   },
   {
     "source": "/system_ext/lib64/libapuwareapusys_v2.mtk.so",
     "proprietary_path": "proprietary/system_ext/lib64/libapuwareapusys_v2.mtk.so",
     "module": "honor_npu_libapuwareapusys_v2_mtk",
     "destination_partition": "system_ext",
-    "sha256": "88ab4794504eafe5397be3450683e552300e5015a49021da8f8360d9f59f558f",
-    "size": 143768
+    "sha256": "3ce7bff6ba967317f6fe5507a53dec9d7086f617d19e8d6f1ad2db9912683735",
+    "size": 168376
   },
   {
     "source": "/system_ext/lib64/libapuwarehmp.mtk.so",
     "proprietary_path": "proprietary/system_ext/lib64/libapuwarehmp.mtk.so",
     "module": "honor_npu_libapuwarehmp_mtk",
     "destination_partition": "system_ext",
-    "sha256": "df87f04a3676f6872031e133770359c013115266cb1a768a36111f0723df7424",
-    "size": 23424
+    "sha256": "d3da08c92e457401ffbdd99eb350f141539f5e0f8c940530856cef1c7b6b889c",
+    "size": 52096
   },
   {
     "source": "/system_ext/lib64/libapuwareutils.mtk.so",
@@ -36,79 +36,95 @@
     "proprietary_path": "proprietary/system_ext/lib64/libapuwareutils_v2.mtk.so",
     "module": "honor_npu_libapuwareutils_v2_mtk",
     "destination_partition": "system_ext",
-    "sha256": "f43d703285a2c328f69ba067000049aeb9e1c183bfcda650a3f46ff282ae13a6",
-    "size": 31744
+    "sha256": "9f8dc57f4014dce2ed6a89b7f386b9bdce5855110050be38c981565bf1027002",
+    "size": 52192
   },
   {
     "source": "/system_ext/lib64/libmvpu_engine_pub.mtk.so",
     "proprietary_path": "proprietary/system_ext/lib64/libmvpu_engine_pub.mtk.so",
     "module": "honor_npu_libmvpu_engine_pub_mtk",
     "destination_partition": "system_ext",
-    "sha256": "971f5e3b22b2de6d84ce5ffcbaa4a2e2dd0ec441767ff2c25aa91b7f36f6ec9d",
-    "size": 5688
+    "sha256": "e1e7c53bb1c7c45e2c18d74c47a25a531c003cd151c1eb1e7fc553d6588b0dfe",
+    "size": 333280
   },
   {
     "source": "/system_ext/lib64/libmvpu_pattern_pub.mtk.so",
     "proprietary_path": "proprietary/system_ext/lib64/libmvpu_pattern_pub.mtk.so",
     "module": "honor_npu_libmvpu_pattern_pub_mtk",
     "destination_partition": "system_ext",
-    "sha256": "dd0bf4ea3e6ce31c3cd09892422a199fa60827e1b9ea6bb983c5e21f0c84b2ab",
-    "size": 5688
+    "sha256": "789a9d5c0168d88ff6098640235d74e90f39d234c403d74f086871d8a211be35",
+    "size": 732960
   },
   {
     "source": "/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so",
     "proprietary_path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so",
     "module": "honor_npu_vendor_mediatek_hardware_apuware_apusys_2_0",
     "destination_partition": "system_ext",
-    "sha256": "6f9680825768e88cfac7c1d57d2a7fafbe8532de84f651716f542b9feca32782",
-    "size": 239584
+    "sha256": "eeff91c0c27b9c0f3da54e8d0e8abb0a4863458a68d6dc9a7fffb53bec4702f6",
+    "size": 251832
   },
   {
     "source": "/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so",
     "proprietary_path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so",
     "module": "honor_npu_vendor_mediatek_hardware_apuware_apusys_2_1",
     "destination_partition": "system_ext",
-    "sha256": "7e34b4f3faca7d4daf9783da436b0ab4c2958c4ae37c6aded243dd1852ec5b14",
-    "size": 135744
+    "sha256": "fe7fa949957c6f44257690e4852c7b00c9437f9d6a8ebfcceb67ebcb411e0cc7",
+    "size": 152096
   },
   {
     "source": "/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys-V5-ndk.so",
     "proprietary_path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys-V5-ndk.so",
     "module": "honor_npu_vendor_mediatek_hardware_apuware_apusys_V5_ndk",
     "destination_partition": "system_ext",
-    "sha256": "1f5ee428a9301d0ed4d71365fd50038a398860ba459e0b7a89c48edf0a23768e",
-    "size": 118992
+    "sha256": "3ea257f32e4f838749c8122bc884c7020e8df529fba6e9b475a0963e7e76f50f",
+    "size": 135360
   },
   {
     "source": "/system_ext/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so",
     "proprietary_path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so",
     "module": "honor_npu_vendor_mediatek_hardware_apuware_hmp_1_0",
     "destination_partition": "system_ext",
-    "sha256": "6637edff05fc4e4660a47c91c2e422934d9de14beb3ddb6b0ae0a0f2c0a2b343",
-    "size": 98352
+    "sha256": "051ee748089f07403a6cac4e70b3c5c41aa49ec1d9c4897a7fa41fae856f839f",
+    "size": 118816
   },
   {
     "source": "/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so",
     "proprietary_path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so",
     "module": "honor_npu_vendor_mediatek_hardware_apuware_utils_1_0",
     "destination_partition": "system_ext",
-    "sha256": "a17b77137cded501877b6bf4d5d85ea3dffcdd7943aa863cf9ebc0693da8e591",
-    "size": 81896
+    "sha256": "00774808965185784ef8cdc8f96ae53362c83b15dd272aa895567a0c424fa0b0",
+    "size": 102368
   },
   {
     "source": "/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so",
     "proprietary_path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so",
     "module": "honor_npu_vendor_mediatek_hardware_apuware_utils_2_0",
     "destination_partition": "system_ext",
-    "sha256": "6238537061259729752e15aa38dbb18f3b8747b35d86f4eadaa1719967b0b9bb",
-    "size": 115168
+    "sha256": "13cbcaeab1b2dc4e6e3afd2e7f798c2ca5b46fe4ee1ad55ddcc0cca313f3aea4",
+    "size": 119224
   },
   {
     "source": "/system_ext/lib64/vendor.mediatek.hardware.apuware.utils-V1-ndk.so",
     "proprietary_path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils-V1-ndk.so",
     "module": "honor_npu_vendor_mediatek_hardware_apuware_utils_V1_ndk",
     "destination_partition": "system_ext",
-    "sha256": "c61b13b975f6e55ea6ea0c830357addae8dad338e0d57c3c815b1154d06a4092",
-    "size": 44480
+    "sha256": "67cb1c32b25ad225a065558f477d0e8b4634748b5c796c7e5584a4e1a9e90d9e",
+    "size": 69040
+  },
+  {
+    "source": "/system_ext/lib64/libmvpu_config.mtk.so",
+    "proprietary_path": "proprietary/system_ext/lib64/libmvpu_config.mtk.so",
+    "module": "honor_npu_libmvpu_config_mtk",
+    "destination_partition": "system_ext",
+    "sha256": "ec212301ec2542235022c55c438932189d1c47c5b9df1468432c2bbcb1262d72",
+    "size": 200672
+  },
+  {
+    "source": "/system_ext/lib64/libaed.so",
+    "proprietary_path": "proprietary/system_ext/lib64/libaed.so",
+    "module": "honor_npu_libaed",
+    "destination_partition": "system_ext",
+    "sha256": "769af74bbb55c1ed5a4de2a081a7287e0edd994056d727951ebbb3ad0dc80cf0",
+    "size": 199680
   }
 ]

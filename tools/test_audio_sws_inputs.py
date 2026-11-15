@@ -22,7 +22,7 @@ class AudioSwsInputsTest(unittest.TestCase):
         self.assertEqual(self.make(),14);self.assertEqual(verify(self.vendor),14)
         data=(self.vendor/'proprietary/system_ext/etc/honor/sws0730.bin').read_bytes()
         self.assertEqual(len(data),914208)
-        self.assertEqual(hashlib.sha256(data).hexdigest(),'290f047b22f7fe9790d1e254fe05e0954d48d10ce02c77f7285484a804239d17')
+        self.assertEqual(hashlib.sha256(data).hexdigest(),'1248bfd04fa2f11049ce3fcafd407a35ebab4a4cb6e3ad87bcaa0e401df4271f')
     def test_bad_stock_engine_refuses_before_destination_write(self):
         self.corrupt(self.stock/'product/lib64/lib64xisten7_3.so')
         with self.assertRaisesRegex(ValueError,'Stock SWS input mismatch'):self.make()

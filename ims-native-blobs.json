@@ -7,7 +7,7 @@
       "module": "honor_ims_libmtk_vt_wrapper",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/libmtk_vt_wrapper.so",
       "installed_relative": "proprietary/system_ext/lib64/libmtk_vt_wrapper.so",
-      "sha256": "6955143026ee7b6858dfcbc900a06143233c42e22fe329c4646eb0c28f7b9f36",
+      "sha256": "b7754083873b1f9443cafbf08e2be13c47e6a7b296a667856df7998e7fe060cf",
       "DT_NEEDED": [
         "libandroid_runtime.so",
         "libbinder.so",
@@ -57,7 +57,7 @@
       "module": "honor_ims_libimsma",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/libimsma.so",
       "installed_relative": "proprietary/system_ext/lib64/libimsma.so",
-      "sha256": "215300a96fc27de310858f8481906b787944267b8b44ff2d80cefe935fc8a151",
+      "sha256": "9526bd44c63b8a85733cfacb4759e40db6241964d9117f69c806a9efa82b1aa4",
       "DT_NEEDED": [
         "libbinder.so",
         "libcutils.so",
@@ -107,7 +107,7 @@
       "module": "honor_ims_libimsma_socketwrapper",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/libimsma_socketwrapper.so",
       "installed_relative": "proprietary/system_ext/lib64/libimsma_socketwrapper.so",
-      "sha256": "39c9aac9f31ecc63f37dc1ae73a717141cf665bc8499631d80c09f45cfdadaea",
+      "sha256": "59e720112af088059e28abf14903e3b73ab213adbd348721c4c8b313028a2b84",
       "DT_NEEDED": [
         "libbinder.so",
         "libmedia.so",
@@ -141,7 +141,7 @@
       "module": "honor_ims_libimsma_rtp",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/libimsma_rtp.so",
       "installed_relative": "proprietary/system_ext/lib64/libimsma_rtp.so",
-      "sha256": "16917cbf05285e8637ee91c586d7b041c9791c32656f84a8768874e45957dce7",
+      "sha256": "eafc946bffe26e2dc27a4e6e133cb9eefc2676ad98c40ecfa270390b5b7db5b6",
       "DT_NEEDED": [
         "libbinder.so",
         "libmedia.so",
@@ -181,7 +181,7 @@
       "module": "honor_ims_libimsma_adapt",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/libimsma_adapt.so",
       "installed_relative": "proprietary/system_ext/lib64/libimsma_adapt.so",
-      "sha256": "9c412807bc29529cd2a5987dd51ce2d8bb771d8b4cf2304e6de9941d4579dd89",
+      "sha256": "ddacf55ab12842f300120ecd72554c40bb979af18ee2f965f43afd2dc5199db5",
       "DT_NEEDED": [
         "liblog.so",
         "libc++.so",
@@ -201,13 +201,11 @@
       "module": "honor_ims_libmtk_vt_service",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/libmtk_vt_service.so",
       "installed_relative": "proprietary/system_ext/lib64/libmtk_vt_service.so",
-      "sha256": "51b1a1aaebe43ba5c1d18ae7717b8f0d4795335492f836257c7c92e70d5ca841",
+      "sha256": "6721d0e278123e3e7b0260d6f0bc5b149340e217988c26bd24ad7504ad563c10",
       "DT_NEEDED": [
-        "libandroid_runtime.so",
         "libbinder.so",
         "libutils.so",
         "libcutils.so",
-        "libnativehelper.so",
         "libui.so",
         "libgui.so",
         "libmedia.so",
@@ -263,7 +261,7 @@
       "module": "honor_vtservice",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/bin/vtservice",
       "installed_relative": "proprietary/system_ext/bin/vtservice",
-      "sha256": "80c62007d3649c14c919b7e396fcbbdccefc6a45a3230ed49b1a06fe12ea6426",
+      "sha256": "6d1a6e584a1c6867c08235d811c3e0378331e986621f261a3d78ae93e879be2f",
       "DT_NEEDED": [
         "libbinder.so",
         "libutils.so",
@@ -291,7 +289,7 @@
       "module": "honor_ims_vendor_mediatek_hardware_videotelephony_1_0",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so",
       "installed_relative": "proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so",
-      "sha256": "be6dc6a2203b78af2ccc72d255c964c195d898e56361c8c27234fc81f33694fa",
+      "sha256": "6557efcd2cd934a8bd32f7d9c621e05185839036c43b6d22dc3d72705ed1fd5c",
       "DT_NEEDED": [
         "libhidlbase.so",
         "liblog.so",
@@ -317,7 +315,7 @@
       "module": "honor_ims_vendor_mediatek_hardware_videotelephony-V1-ndk",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so",
       "installed_relative": "proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so",
-      "sha256": "6afe173c8ae59fba2bf7b974d96db403eeac480c52c99ac7925b8ba7969ff9a0",
+      "sha256": "bcbd2338de9b841edba57d54aea1c601da1245a0e3784aa09be6166bc5cd5c77",
       "DT_NEEDED": [
         "libbinder_ndk.so",
         "android.hardware.common-V2-ndk.so",
@@ -341,7 +339,7 @@
       "module": "honor_ims_libvcodec_cap",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/libvcodec_cap.so",
       "installed_relative": "proprietary/system_ext/lib64/libvcodec_cap.so",
-      "sha256": "07459ac6fd4a064e8346299418c13083853ab07681cff5dafdcea915e0b11126",
+      "sha256": "0019d92fa0c8795ce027881c6b247bd07cd398a15cb06bd819403a348d5c2b7a",
       "DT_NEEDED": [
         "libui.so",
         "libcutils.so",
@@ -354,6 +352,7 @@
         "libstagefright_foundation.so",
         "libion.so",
         "android.hardware.graphics.bufferqueue@2.0.so",
+        "aconfig_libgui_flags_c_lib.so",
         "libc++.so",
         "libc.so",
         "libm.so",
@@ -381,7 +380,7 @@
       "module": "honor_ims_libsource",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/libsource.so",
       "installed_relative": "proprietary/system_ext/lib64/libsource.so",
-      "sha256": "ab5f01d144603abf895aba8bcf115206a8dc25268e4c80f57c3c9b13f66ec595",
+      "sha256": "86b934893578b2d91e670d4e0eefce4153e7b2d6d780409545335b69c369ff4d",
       "DT_NEEDED": [
         "libbinder.so",
         "libcutils.so",
@@ -429,7 +428,7 @@
       "module": "honor_ims_libcomutils",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/libcomutils.so",
       "installed_relative": "proprietary/system_ext/lib64/libcomutils.so",
-      "sha256": "2dd7ed68a69c173d31041b46d2de34a2ccef2eabafd7e5ec80ba104ec4f2ad13",
+      "sha256": "b6fa1888c578dc8b28e41687d2d98015d682baf869c6264764d04deeeebb521c",
       "DT_NEEDED": [
         "libcutils.so",
         "libstagefright_foundation.so",
@@ -461,7 +460,7 @@
       "module": "honor_ims_libsignal",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/libsignal.so",
       "installed_relative": "proprietary/system_ext/lib64/libsignal.so",
-      "sha256": "963da611a7ad92de3d21a883f93e292648374b83b26766e9d04835a5b079adbe",
+      "sha256": "3961a293b0bddeba05e9d20248b251f01dd9318aebc126c7b22b6492baaa7883",
       "DT_NEEDED": [
         "libcutils.so",
         "libutils.so",
@@ -487,7 +486,7 @@
       "module": "honor_ims_libvt_avsync",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/libvt_avsync.so",
       "installed_relative": "proprietary/system_ext/lib64/libvt_avsync.so",
-      "sha256": "8d33c56ec6462e40c6f7bb1677eee9775bb293e5edb150250fecb5c820aed314",
+      "sha256": "20d90b4dc9a1644193dcc6e60d6156f30a3cc522b8c96e2e9e86b4f8c3b50f21",
       "DT_NEEDED": [
         "libbinder.so",
         "libutils.so",
@@ -513,7 +512,7 @@
       "module": "honor_ims_libvcodec_capenc",
       "source": "stock/10.0.0.113/complete-content-reference/system_ext/lib64/libvcodec_capenc.so",
       "installed_relative": "proprietary/system_ext/lib64/libvcodec_capenc.so",
-      "sha256": "b4a02a3db68642428a69bbf262471e6e99698ff1386d1b7d20eab417a3f29ad9",
+      "sha256": "89180f08e2adfb4e3dceb2bb8de3a1e94ce7bbc6ccc980ce4343bd7628902a0e",
       "DT_NEEDED": [
         "liblog.so",
         "libion.so",
@@ -535,9 +534,8 @@
       "module": "honor_ims_libsink",
       "source": "artifacts/device-runtime-audit-20261022/ims-native/candidate/libsink.so",
       "installed_relative": "proprietary/system_ext/lib64/libsink.so",
-      "sha256": "8c2a09ed2b760a901b1f43789190315ed700da7786d36e255bdf166032874715",
+      "sha256": "5dd054bde00bd6a0c9395bbd9579181cea863020a5f3cc4fdf2b7224c867d16a",
       "DT_NEEDED": [
-        "libaudioclient_shim.so",
         "libbinder.so",
         "libcutils.so",
         "libgui.so",

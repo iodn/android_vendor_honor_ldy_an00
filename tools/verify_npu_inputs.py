@@ -20,8 +20,8 @@ def verify_configuration(root):
     blobs = json.loads((root / "npu-framework-blobs.json").read_text())
     names = [item["module"] for item in blobs]
     paths = [item["proprietary_path"] for item in blobs]
-    if len(blobs) != 14 or len(set(names)) != 14 or len(set(paths)) != 14:
-        raise ValueError("NPU inventory must contain the complete 14-library cohort")
+    if len(blobs) != 16 or len(set(names)) != 16 or len(set(paths)) != 16:
+        raise ValueError("NPU inventory must contain the complete 16-library cohort")
 
     public = (root / "config/npu/public.libraries-mtk.txt").read_text().splitlines()
     if len(public) != len(PUBLIC_LIBRARIES) or set(public) != PUBLIC_LIBRARIES:
@@ -54,7 +54,7 @@ def verify_configuration(root):
                          for line in (root / "npu-framework.mk").read_text().splitlines())
     packages = re.findall(r"\bhonor_npu_[A-Za-z0-9_]+\b",
                           makefile.split("PRODUCT_COPY_FILES", 1)[0])
-    if len(packages) != 14 or set(packages) != set(names):
+    if len(packages) != 16 or set(packages) != set(names):
         raise ValueError("NPU product packages omit or duplicate a required library")
     public_copy = ("vendor/honor/ldy_an00/config/npu/public.libraries-mtk.txt:"
                    "$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-mtk.txt")
@@ -71,11 +71,11 @@ def verify(root):
         if len(data) != item["size"] or hashlib.sha256(data).hexdigest() != item["sha256"]:
             raise ValueError("NPU input mismatch: " + item["proprietary_path"])
     adapter = root / "proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so"
-    if hashlib.sha256(adapter.read_bytes()).hexdigest() != "7d6a717154b29f511fa7af8808c086ca67b0fbc580707af7c015ab9ccb0c01f6":
+    if hashlib.sha256(adapter.read_bytes()).hexdigest() != "6625f9acf9afea6550d6d54ea8548c1dacfcafb8bc28d8beaf83987505b2c427":
         raise ValueError("The versioned-SONAME exception only permits the pinned stock adapter")
     result = subprocess.run(["readelf", "-d", str(adapter)], check=True, text=True, capture_output=True)
     names = re.findall(r"\(SONAME\).*?\[(.*?)\]", result.stdout)
-    if names != ["libneuronusdk_adapter.mtk.so.8"]:
+    if names != ['libneuronusdk_adapter.mtk.so.8']:
         raise ValueError("Unexpected stock adapter SONAME: " + repr(names))
     print("NPU_INPUTS_OK")
 

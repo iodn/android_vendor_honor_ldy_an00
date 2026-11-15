@@ -1,28 +1,28 @@
 [
   {
     "file": "proprietary/boot/vendor_boot.img",
-    "sha256": "b583f59c0161cc178adde6fe3af66efb2e74406406f0255aaf4154a8485099c2",
+    "sha256": "8223b82a7dc11524a43f2e483bba7a9c4348730fef0834baac9c44774f3d4179",
     "size": 100663296
   },
   {
     "file": "proprietary/boot/boot.img",
-    "sha256": "06e2c95bbce04724c7ca3b4e5b7953a2ed3169ddceb8346de9078b2c31312702",
+    "sha256": "16d1560f95b63542b9b9fec1e8b62ca23e879c6f56f18457e6016f533aea28fa",
     "size": 67108864
   },
   {
     "file": "proprietary/boot/dtbo.img",
-    "sha256": "648b539dcfd1eec58571101ae7a33a07c40c6914f744a2b5aa4ed53526aaaf4d",
-    "size": 3645008
+    "sha256": "b35f0c44b9c0fcdc0e2a59942fa885cfd543779abe8be3c7479c99ce36343f00",
+    "size": 3653632
   },
   {
     "file": "proprietary/boot/init_boot.img",
-    "sha256": "448204021b7aae3b3fb2ad8fbb8bee3e1f91854859f7671f74fcb3861782c91e",
+    "sha256": "3902187e3e3c9aebcde41f579a8af03bb89ef732aa08651fda859e24672f6777",
     "size": 8388608
   },
   {
     "file": "proprietary/boot/Image.lz4",
-    "sha256": "5dfcbd535742b34abb7bb9960339fa031393669fbacec0ecd0cd9d2560cb8517",
-    "size": 19084336,
+    "sha256": "4511fdff47fcf71d1cbb0c992290a4878bbcc85d1bf052e49dae704a84368c33",
+    "size": 19925302,
     "source": "boot.img unpacked kernel"
   }
 ]

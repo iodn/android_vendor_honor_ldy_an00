@@ -40,7 +40,7 @@ class InputInventoryTests(unittest.TestCase):
 
     def test_npu_inventory_and_public_boundary(self):
         blobs = json.loads((ROOT / "npu-framework-blobs.json").read_text())
-        self.assertEqual(len(blobs), 14)
+        self.assertEqual(len(blobs), 16)
         public = set((ROOT / "config/npu/public.libraries-mtk.txt").read_text().splitlines())
         self.assertEqual(len(public), 7)
         for item in blobs:
@@ -68,12 +68,12 @@ class InputInventoryTests(unittest.TestCase):
         text = (ROOT / "Android.bp").read_text()
         blocks = re.findall(r"cc_prebuilt_library_shared\s*\{.*?\n\}", text, re.S)
         npu = [block for block in blocks if 'name: "honor_npu_' in block]
-        self.assertEqual(len(npu), 14)
+        self.assertEqual(len(npu), 16)
         exceptions = [block for block in npu if "check_elf_files: false" in block]
         self.assertEqual(len(exceptions), 1)
         self.assertIn('name: "honor_npu_libneuronusdk_adapter_mtk"', exceptions[0])
         entry = self.inputs["proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so"]
-        self.assertEqual(entry["sha256"], "7d6a717154b29f511fa7af8808c086ca67b0fbc580707af7c015ab9ccb0c01f6")
+        self.assertEqual(entry["sha256"], "6625f9acf9afea6550d6d54ea8548c1dacfcafb8bc28d8beaf83987505b2c427")
 
 if __name__ == "__main__":
     unittest.main()

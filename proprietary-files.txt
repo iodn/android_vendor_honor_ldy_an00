@@ -55,3 +55,5 @@ odm/etc/sws/teh_config.bin
 odm/etc/sws/ascconfig1.bin
 odm/etc/sws/ascconfig2.bin
 odm/etc/sws/actconfig1.bin
+system_ext/lib64/libmvpu_config.mtk.so
+system_ext/lib64/libaed.so

@@ -781,7 +781,8 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/system_ext/lib64/libmvpu_engine_pub.mtk.so"],
     strip: { none: true },
     stl: "none",
-    system_shared_libs: [],
+    system_shared_libs: [
+        "honor_npu_libmvpu_config_mtk",],
     check_elf_files: true,
     shared_libs: [
         "libc",
@@ -798,7 +799,8 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/system_ext/lib64/libmvpu_pattern_pub.mtk.so"],
     strip: { none: true },
     stl: "none",
-    system_shared_libs: [],
+    system_shared_libs: [
+        "honor_npu_libmvpu_config_mtk",],
     check_elf_files: true,
     shared_libs: [
         "libc",
@@ -978,4 +980,26 @@ prebuilt_etc {
     src: "proprietary/system_ext/etc/honor/sws0730.bin",
     sub_dir: "honor",
     filename: "sws0730.bin",
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_npu_libmvpu_config_mtk",
+    stem: "libmvpu_config.mtk",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/system_ext/lib64/libmvpu_config.mtk.so"],
+    strip: { none: true },
+    check_elf_files: true,
+    shared_libs: ["liblog", "libcutils", "honor_npu_libaed", "libc++"],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_npu_libaed",
+    stem: "libaed",
+    system_ext_specific: true,
+    compile_multilib: "64",
+    srcs: ["proprietary/system_ext/lib64/libaed.so"],
+    strip: { none: true },
+    check_elf_files: true,
+    shared_libs: ["libcutils", "libselinux", "libbase", "libunwindstack", "liblog", "libz", "libc++"],
 }

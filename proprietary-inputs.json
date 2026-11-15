@@ -1,30 +1,30 @@
 {
-  "firmware": "10.0.0.113(C00E100R101P1)",
+  "firmware": "11.0.0.117(SP3C00E117R103P1)",
   "inputs": [
     {
       "path": "proprietary/boot/Image.lz4",
-      "size": 19084336,
-      "sha256": "5dfcbd535742b34abb7bb9960339fa031393669fbacec0ecd0cd9d2560cb8517"
+      "size": 19925302,
+      "sha256": "4511fdff47fcf71d1cbb0c992290a4878bbcc85d1bf052e49dae704a84368c33"
     },
     {
       "path": "proprietary/boot/boot.img",
       "size": 67108864,
-      "sha256": "06e2c95bbce04724c7ca3b4e5b7953a2ed3169ddceb8346de9078b2c31312702"
+      "sha256": "16d1560f95b63542b9b9fec1e8b62ca23e879c6f56f18457e6016f533aea28fa"
     },
     {
       "path": "proprietary/boot/dtbo.img",
-      "size": 3645008,
-      "sha256": "648b539dcfd1eec58571101ae7a33a07c40c6914f744a2b5aa4ed53526aaaf4d"
+      "size": 3653632,
+      "sha256": "b35f0c44b9c0fcdc0e2a59942fa885cfd543779abe8be3c7479c99ce36343f00"
     },
     {
       "path": "proprietary/boot/init_boot.img",
       "size": 8388608,
-      "sha256": "448204021b7aae3b3fb2ad8fbb8bee3e1f91854859f7671f74fcb3861782c91e"
+      "sha256": "3902187e3e3c9aebcde41f579a8af03bb89ef732aa08651fda859e24672f6777"
     },
     {
       "path": "proprietary/boot/vendor_boot.img",
       "size": 100663296,
-      "sha256": "b583f59c0161cc178adde6fe3af66efb2e74406406f0255aaf4154a8485099c2"
+      "sha256": "8223b82a7dc11524a43f2e483bba7a9c4348730fef0834baac9c44774f3d4179"
     },
     {
       "path": "proprietary/odm/etc/sws/actconfig1.bin",
@@ -63,8 +63,8 @@
     },
     {
       "path": "proprietary/odm/etc/sws/sws_config.xml",
-      "size": 1354030,
-      "sha256": "28d1dbdc639d5112e9267545ba28d4aea8ce73792ee2f815117f3063480dbf43"
+      "size": 1354051,
+      "sha256": "7107390a24cee8dfd99170fbef60f723d358e6669d9468a0d129c46eacb221db"
     },
     {
       "path": "proprietary/odm/etc/sws/sws_config_vmap.xml",
@@ -94,37 +94,37 @@
     {
       "path": "proprietary/system/etc/native_packages.xml",
       "size": 6992,
-      "sha256": "288770066a567e156de5c79fde593e0d09ff5255afe30af2d0c927a7b780a4ca"
+      "sha256": "d24b5bec740b47bae89b0cfa01e3bafbf4051b01657ef71751dd12ae003482d6"
     },
     {
       "path": "proprietary/system/lib64/libc_secshared.so",
-      "size": 64080,
-      "sha256": "e7b306d75a6bdb35d3d73df52a76ccf2b6dd24d8d588dbbb8369b18a63ac0ee0"
+      "size": 84560,
+      "sha256": "d57a98c99aecc9c20235cd0f92f9cbef0a66361cf2950bea7635dbba707eaf5c"
     },
     {
       "path": "proprietary/system/lib64/vendor.honor.hardware.libteec-V2-ndk.so",
-      "size": 85840,
-      "sha256": "838435c93158f4967102e2ff076bcdd72b79c305898ccc53abc87090cbaca166"
+      "size": 102208,
+      "sha256": "b97b143bce191325d28bab98e4428d7bc43ec038748adc072a9f5938c489d969"
     },
     {
       "path": "proprietary/system/lib64/vendor.honor.hardware.libteec@3.0.so",
-      "size": 173536,
-      "sha256": "a068744d723a3affb4110bfe4b713c4fc3b6c48819bdd5c982a92c30ddf28a90"
+      "size": 185760,
+      "sha256": "976fa71304987f73fff9940f1176cdaefeef9f49ccc2a652c35484480b9236f2"
     },
     {
       "path": "proprietary/system_ext/bin/tee_auth_daemon",
-      "size": 125144,
-      "sha256": "00304550c57e2a69c5a8948d6c3bb7c54531159b1369a79c3c2bfa6f4ed20624"
+      "size": 133280,
+      "sha256": "be0b1499151984c43b5f3046bff01c4ed2da4fe168c493494732ef6f691e3871"
     },
     {
       "path": "proprietary/system_ext/bin/vtservice",
-      "size": 14352,
-      "sha256": "80c62007d3649c14c919b7e396fcbbdccefc6a45a3230ed49b1a06fe12ea6426"
+      "size": 51224,
+      "sha256": "6d1a6e584a1c6867c08235d811c3e0378331e986621f261a3d78ae93e879be2f"
     },
     {
       "path": "proprietary/system_ext/etc/honor/sws0730.bin",
       "size": 914208,
-      "sha256": "290f047b22f7fe9790d1e254fe05e0954d48d10ce02c77f7285484a804239d17"
+      "sha256": "1248bfd04fa2f11049ce3fcafd407a35ebab4a4cb6e3ad87bcaa0e401df4271f"
     },
     {
       "path": "proprietary/system_ext/etc/init/init.vtservice.rc",
@@ -134,17 +134,22 @@
     {
       "path": "proprietary/system_ext/etc/native_packages.xml",
       "size": 4512,
-      "sha256": "306522d388f09eba3579bac2d09b761a51d4453369c79160fd8dd442b3217b65"
+      "sha256": "5ea3acd2fd3a2856c1a265ce8936feed1b810403dc19d01f2901a5339ccabf30"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libaed.so",
+      "size": 199680,
+      "sha256": "769af74bbb55c1ed5a4de2a081a7287e0edd994056d727951ebbb3ad0dc80cf0"
     },
     {
       "path": "proprietary/system_ext/lib64/libapuwareapusys_v2.mtk.so",
-      "size": 143768,
-      "sha256": "88ab4794504eafe5397be3450683e552300e5015a49021da8f8360d9f59f558f"
+      "size": 168376,
+      "sha256": "3ce7bff6ba967317f6fe5507a53dec9d7086f617d19e8d6f1ad2db9912683735"
     },
     {
       "path": "proprietary/system_ext/lib64/libapuwarehmp.mtk.so",
-      "size": 23424,
-      "sha256": "df87f04a3676f6872031e133770359c013115266cb1a768a36111f0723df7424"
+      "size": 52096,
+      "sha256": "d3da08c92e457401ffbdd99eb350f141539f5e0f8c940530856cef1c7b6b889c"
     },
     {
       "path": "proprietary/system_ext/lib64/libapuwareutils.mtk.so",
@@ -153,134 +158,147 @@
     },
     {
       "path": "proprietary/system_ext/lib64/libapuwareutils_v2.mtk.so",
-      "size": 31744,
-      "sha256": "f43d703285a2c328f69ba067000049aeb9e1c183bfcda650a3f46ff282ae13a6"
+      "size": 52192,
+      "sha256": "9f8dc57f4014dce2ed6a89b7f386b9bdce5855110050be38c981565bf1027002"
     },
     {
       "path": "proprietary/system_ext/lib64/libcomutils.so",
-      "size": 27912,
-      "sha256": "2dd7ed68a69c173d31041b46d2de34a2ccef2eabafd7e5ec80ba104ec4f2ad13"
+      "size": 36104,
+      "sha256": "b6fa1888c578dc8b28e41687d2d98015d682baf869c6264764d04deeeebb521c"
     },
     {
       "path": "proprietary/system_ext/lib64/libimsma.so",
-      "size": 125336,
-      "sha256": "215300a96fc27de310858f8481906b787944267b8b44ff2d80cefe935fc8a151"
+      "size": 149920,
+      "sha256": "9526bd44c63b8a85733cfacb4759e40db6241964d9117f69c806a9efa82b1aa4"
     },
     {
       "path": "proprietary/system_ext/lib64/libimsma_adapt.so",
-      "size": 67728,
-      "sha256": "9c412807bc29529cd2a5987dd51ce2d8bb771d8b4cf2304e6de9941d4579dd89"
+      "size": 67800,
+      "sha256": "ddacf55ab12842f300120ecd72554c40bb979af18ee2f965f43afd2dc5199db5"
     },
     {
       "path": "proprietary/system_ext/lib64/libimsma_rtp.so",
-      "size": 220056,
-      "sha256": "16917cbf05285e8637ee91c586d7b041c9791c32656f84a8768874e45957dce7"
+      "size": 248728,
+      "sha256": "eafc946bffe26e2dc27a4e6e133cb9eefc2676ad98c40ecfa270390b5b7db5b6"
     },
     {
       "path": "proprietary/system_ext/lib64/libimsma_socketwrapper.so",
-      "size": 23656,
-      "sha256": "39c9aac9f31ecc63f37dc1ae73a717141cf665bc8499631d80c09f45cfdadaea"
+      "size": 35944,
+      "sha256": "59e720112af088059e28abf14903e3b73ab213adbd348721c4c8b313028a2b84"
     },
     {
       "path": "proprietary/system_ext/lib64/libmtk_vt_service.so",
-      "size": 279112,
-      "sha256": "51b1a1aaebe43ba5c1d18ae7717b8f0d4795335492f836257c7c92e70d5ca841"
+      "size": 299464,
+      "sha256": "6721d0e278123e3e7b0260d6f0bc5b149340e217988c26bd24ad7504ad563c10"
     },
     {
       "path": "proprietary/system_ext/lib64/libmtk_vt_wrapper.so",
-      "size": 89632,
-      "sha256": "6955143026ee7b6858dfcbc900a06143233c42e22fe329c4646eb0c28f7b9f36"
+      "size": 101712,
+      "sha256": "b7754083873b1f9443cafbf08e2be13c47e6a7b296a667856df7998e7fe060cf"
+    },
+    {
+      "path": "proprietary/system_ext/lib64/libmvpu_config.mtk.so",
+      "size": 200672,
+      "sha256": "ec212301ec2542235022c55c438932189d1c47c5b9df1468432c2bbcb1262d72"
     },
     {
       "path": "proprietary/system_ext/lib64/libmvpu_engine_pub.mtk.so",
-      "size": 5688,
-      "sha256": "971f5e3b22b2de6d84ce5ffcbaa4a2e2dd0ec441767ff2c25aa91b7f36f6ec9d"
+      "size": 333280,
+      "sha256": "e1e7c53bb1c7c45e2c18d74c47a25a531c003cd151c1eb1e7fc553d6588b0dfe"
     },
     {
       "path": "proprietary/system_ext/lib64/libmvpu_pattern_pub.mtk.so",
-      "size": 5688,
-      "sha256": "dd0bf4ea3e6ce31c3cd09892422a199fa60827e1b9ea6bb983c5e21f0c84b2ab"
+      "size": 732960,
+      "sha256": "789a9d5c0168d88ff6098640235d74e90f39d234c403d74f086871d8a211be35"
     },
     {
       "path": "proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so",
-      "size": 13659272,
-      "sha256": "7d6a717154b29f511fa7af8808c086ca67b0fbc580707af7c015ab9ccb0c01f6"
+      "size": 13698400,
+      "sha256": "6625f9acf9afea6550d6d54ea8548c1dacfcafb8bc28d8beaf83987505b2c427"
     },
     {
       "path": "proprietary/system_ext/lib64/libsignal.so",
-      "size": 18968,
-      "sha256": "963da611a7ad92de3d21a883f93e292648374b83b26766e9d04835a5b079adbe"
+      "size": 51760,
+      "sha256": "3961a293b0bddeba05e9d20248b251f01dd9318aebc126c7b22b6492baaa7883"
     },
     {
       "path": "proprietary/system_ext/lib64/libsink.so",
-      "size": 226289,
-      "sha256": "8c2a09ed2b760a901b1f43789190315ed700da7786d36e255bdf166032874715"
+      "size": 199584,
+      "sha256": "5dd054bde00bd6a0c9395bbd9579181cea863020a5f3cc4fdf2b7224c867d16a"
     },
     {
       "path": "proprietary/system_ext/lib64/libsource.so",
-      "size": 162752,
-      "sha256": "ab5f01d144603abf895aba8bcf115206a8dc25268e4c80f57c3c9b13f66ec595"
+      "size": 183256,
+      "sha256": "86b934893578b2d91e670d4e0eefce4153e7b2d6d780409545335b69c369ff4d"
     },
     {
       "path": "proprietary/system_ext/lib64/libvcodec_cap.so",
-      "size": 79680,
-      "sha256": "07459ac6fd4a064e8346299418c13083853ab07681cff5dafdcea915e0b11126"
+      "size": 104264,
+      "sha256": "0019d92fa0c8795ce027881c6b247bd07cd398a15cb06bd819403a348d5c2b7a"
     },
     {
       "path": "proprietary/system_ext/lib64/libvcodec_capenc.so",
-      "size": 35432,
-      "sha256": "b4a02a3db68642428a69bbf262471e6e99698ff1386d1b7d20eab417a3f29ad9"
+      "size": 35512,
+      "sha256": "89180f08e2adfb4e3dceb2bb8de3a1e94ce7bbc6ccc980ce4343bd7628902a0e"
     },
     {
       "path": "proprietary/system_ext/lib64/libvt_avsync.so",
-      "size": 22832,
-      "sha256": "8d33c56ec6462e40c6f7bb1677eee9775bb293e5edb150250fecb5c820aed314"
+      "size": 51504,
+      "sha256": "20d90b4dc9a1644193dcc6e60d6156f30a3cc522b8c96e2e9e86b4f8c3b50f21"
     },
     {
       "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys-V5-ndk.so",
-      "size": 118992,
-      "sha256": "1f5ee428a9301d0ed4d71365fd50038a398860ba459e0b7a89c48edf0a23768e"
+      "size": 135360,
+      "sha256": "3ea257f32e4f838749c8122bc884c7020e8df529fba6e9b475a0963e7e76f50f"
     },
     {
       "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so",
-      "size": 239584,
-      "sha256": "6f9680825768e88cfac7c1d57d2a7fafbe8532de84f651716f542b9feca32782"
+      "size": 251832,
+      "sha256": "eeff91c0c27b9c0f3da54e8d0e8abb0a4863458a68d6dc9a7fffb53bec4702f6"
     },
     {
       "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so",
-      "size": 135744,
-      "sha256": "7e34b4f3faca7d4daf9783da436b0ab4c2958c4ae37c6aded243dd1852ec5b14"
+      "size": 152096,
+      "sha256": "fe7fa949957c6f44257690e4852c7b00c9437f9d6a8ebfcceb67ebcb411e0cc7"
     },
     {
       "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so",
-      "size": 98352,
-      "sha256": "6637edff05fc4e4660a47c91c2e422934d9de14beb3ddb6b0ae0a0f2c0a2b343"
+      "size": 118816,
+      "sha256": "051ee748089f07403a6cac4e70b3c5c41aa49ec1d9c4897a7fa41fae856f839f"
     },
     {
       "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils-V1-ndk.so",
-      "size": 44480,
-      "sha256": "c61b13b975f6e55ea6ea0c830357addae8dad338e0d57c3c815b1154d06a4092"
+      "size": 69040,
+      "sha256": "67cb1c32b25ad225a065558f477d0e8b4634748b5c796c7e5584a4e1a9e90d9e"
     },
     {
       "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so",
-      "size": 81896,
-      "sha256": "a17b77137cded501877b6bf4d5d85ea3dffcdd7943aa863cf9ebc0693da8e591"
+      "size": 102368,
+      "sha256": "00774808965185784ef8cdc8f96ae53362c83b15dd272aa895567a0c424fa0b0"
     },
     {
       "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so",
-      "size": 115168,
-      "sha256": "6238537061259729752e15aa38dbb18f3b8747b35d86f4eadaa1719967b0b9bb"
+      "size": 119224,
+      "sha256": "13cbcaeab1b2dc4e6e3afd2e7f798c2ca5b46fe4ee1ad55ddcc0cca313f3aea4"
     },
     {
       "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so",
-      "size": 44448,
-      "sha256": "6afe173c8ae59fba2bf7b974d96db403eeac480c52c99ac7925b8ba7969ff9a0"
+      "size": 69016,
+      "sha256": "bcbd2338de9b841edba57d54aea1c601da1245a0e3784aa09be6166bc5cd5c77"
     },
     {
       "path": "proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so",
-      "size": 86048,
-      "sha256": "be6dc6a2203b78af2ccc72d255c964c195d898e56361c8c27234fc81f33694fa"
+      "size": 102384,
+      "sha256": "6557efcd2cd934a8bd32f7d9c621e05185839036c43b6d22dc3d72705ed1fd5c"
     }
   ],
-  "notice": "Pinned stock and derived build inputs. Some files are generated by the integration tools. Personal ADB keys are excluded."
+  "notice": "Pinned stock and derived build inputs. Some files are generated by the integration tools. Personal ADB keys are excluded.",
+  "scope": "Framework clients and unmodified stock boot references for the stock11 migration; the source-built kernel cohort is packaged separately.",
+  "retained_legacy_clients": [
+    {
+      "path": "proprietary/system_ext/lib64/libapuwareutils.mtk.so",
+      "firmware": "10.0.0.113(C00E100R101P1)",
+      "reason": "Legacy HIDL v1 client, retained for API compatibility. New firmware has no same-name counterpart; raw device access and required HAL exports are checked separately."
+    }
+  ]
 }

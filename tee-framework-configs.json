@@ -7,7 +7,7 @@
       "module": "honor_tee_native_packages_system",
       "installed_path": "/system/etc/native_packages.xml",
       "bytes": 6992,
-      "sha256": "288770066a567e156de5c79fde593e0d09ff5255afe30af2d0c927a7b780a4ca"
+      "sha256": "d24b5bec740b47bae89b0cfa01e3bafbf4051b01657ef71751dd12ae003482d6"
     },
     {
       "source": "system_ext/etc/native_packages.xml",
@@ -15,7 +15,7 @@
       "module": "honor_tee_native_packages_system_ext",
       "installed_path": "/system_ext/etc/native_packages.xml",
       "bytes": 4512,
-      "sha256": "306522d388f09eba3579bac2d09b761a51d4453369c79160fd8dd442b3217b65"
+      "sha256": "5ea3acd2fd3a2856c1a265ce8936feed1b810403dc19d01f2901a5339ccabf30"
     }
   ]
 }

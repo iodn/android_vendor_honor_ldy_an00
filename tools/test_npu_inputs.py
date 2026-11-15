@@ -36,19 +36,19 @@ class NpuConfigurationTests(unittest.TestCase):
             VERIFY.verify_configuration(self.root)
 
     def test_complete_cohort(self):
-        self.assertEqual(len(VERIFY.verify_configuration(self.root)), 14)
+        self.assertEqual(len(VERIFY.verify_configuration(self.root)), 16)
 
     def test_incomplete_inventory(self):
         path = self.root / "npu-framework-blobs.json"
         path.write_text(json.dumps(json.loads(path.read_text())[:1]))
-        self.rejected("complete 14-library cohort")
+        self.rejected("complete 16-library cohort")
 
     def test_duplicate_inventory_entry(self):
         path = self.root / "npu-framework-blobs.json"
         rows = json.loads(path.read_text())
         rows[-1] = rows[0]
         path.write_text(json.dumps(rows))
-        self.rejected("complete 14-library cohort")
+        self.rejected("complete 16-library cohort")
 
     def test_missing_product_package(self):
         self.change("npu-framework.mk", "    honor_npu_libapuwarehmp_mtk \\\n", "")

@@ -1,5 +1,5 @@
 {
-  "firmware": "10.0.0.113(C00E100R101P1)",
+  "firmware": "11.0.0.117(SP3C00E117R103P1)",
   "inputs": [
     {
       "source": "/product/lib64/lib64xisten7_3.so",
@@ -12,8 +12,8 @@
     {
       "source": "/odm/etc/sws/sws_config.xml",
       "proprietary_path": "proprietary/odm/etc/sws/sws_config.xml",
-      "size": 1354030,
-      "sha256": "28d1dbdc639d5112e9267545ba28d4aea8ce73792ee2f815117f3063480dbf43",
+      "size": 1354051,
+      "sha256": "7107390a24cee8dfd99170fbef60f723d358e6669d9468a0d129c46eacb221db",
       "role": "bundle_build_input_only"
     },
     {
@@ -99,7 +99,7 @@
     "module": "honor_sws0730_tuning",
     "destination_partition": "system_ext",
     "size": 914208,
-    "sha256": "290f047b22f7fe9790d1e254fe05e0954d48d10ce02c77f7285484a804239d17",
+    "sha256": "1248bfd04fa2f11049ce3fcafd407a35ebab4a4cb6e3ad87bcaa0e401df4271f",
     "generator": "tools/pack_sws_tuning.py"
   },
   "engine_soname": "lib64honorsound73.so"

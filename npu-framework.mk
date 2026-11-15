@@ -1,5 +1,7 @@
 PRODUCT_SOONG_NAMESPACES += vendor/honor/ldy_an00
 PRODUCT_PACKAGES += \
+    honor_npu_libmvpu_config_mtk \
+    honor_npu_libaed \
     honor_npu_libneuronusdk_adapter_mtk \
     honor_npu_libapuwareapusys_v2_mtk \
     honor_npu_libapuwarehmp_mtk \
