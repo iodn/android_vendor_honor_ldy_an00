@@ -16,6 +16,18 @@ PUBLIC_LIBRARIES = {
 }
 
 
+def verify_needed_libraries(block, needed, provider_files):
+    shared = re.search(r"(?m)^[ \t]+shared_libs:\s*\[([^]]*)\]", block, re.S)
+    modules = re.findall(r'"([^"]+)"', shared[1]) if shared else []
+    declared = {provider_files.get(name, name + ".so") for name in modules}
+    system = re.search(r"(?m)^[ \t]+system_shared_libs:\s*\[([^]]*)\]", block, re.S)
+    if system is None:
+        declared.update(("libc.so", "libm.so", "libdl.so"))
+    missing = sorted(set(needed) - declared)
+    if missing:
+        raise ValueError("NPU DT_NEEDED missing from shared_libs: " + ", ".join(missing))
+
+
 def verify_configuration(root):
     blobs = json.loads((root / "npu-framework-blobs.json").read_text())
     names = [item["module"] for item in blobs]
@@ -42,6 +54,9 @@ def verify_configuration(root):
         block = selected[item["module"]]
         sources = re.search(r"\bsrcs:\s*\[([^]]*)\]", block, re.S)
         stem = re.search(r'\bstem:\s*"([^"]+)"', block)
+        system = re.search(r"(?m)^[ \t]+system_shared_libs:\s*\[([^]]*)\]", block, re.S)
+        if system is not None and re.findall(r'"([^"]+)"', system[1]):
+            raise ValueError("NPU system_shared_libs must remain empty; use shared_libs for dependencies")
         expected = Path(item["source"]).name.removesuffix(".so")
         if (sources is None or re.findall(r'"([^"]+)"', sources[1]) != [item["proprietary_path"]]
                 or stem is None or stem[1] != expected
@@ -65,11 +80,23 @@ def verify_configuration(root):
 
 def verify(root):
     blobs = verify_configuration(root)
+    blueprint = (root / "Android.bp").read_text()
+    blocks = re.findall(r"cc_prebuilt_library_shared\s*\{.*?^\}", blueprint, re.S | re.M)
+    providers = {}
+    for block in blocks:
+        name = re.search(r'\bname:\s*"([^"]+)"', block)
+        stem = re.search(r'\bstem:\s*"([^"]+)"', block)
+        if name:
+            providers[name[1]] = (stem[1] if stem else name[1]) + ".so"
     for item in blobs:
         path = root / item["proprietary_path"]
         data = path.read_bytes()
         if len(data) != item["size"] or hashlib.sha256(data).hexdigest() != item["sha256"]:
             raise ValueError("NPU input mismatch: " + item["proprietary_path"])
+        block = next(block for block in blocks if 'name: "' + item["module"] + '"' in block)
+        dynamic = subprocess.run(["readelf", "-d", str(path)], check=True, text=True, capture_output=True)
+        needed = re.findall(r"\(NEEDED\).*?\[(.*?)\]", dynamic.stdout)
+        verify_needed_libraries(block, needed, providers)
     adapter = root / "proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so"
     if hashlib.sha256(adapter.read_bytes()).hexdigest() != "6625f9acf9afea6550d6d54ea8548c1dacfcafb8bc28d8beaf83987505b2c427":
         raise ValueError("The versioned-SONAME exception only permits the pinned stock adapter")

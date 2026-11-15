@@ -38,6 +38,21 @@ class NpuConfigurationTests(unittest.TestCase):
     def test_complete_cohort(self):
         self.assertEqual(len(VERIFY.verify_configuration(self.root)), 16)
 
+    def test_backend_dependency_cannot_replace_system_libraries(self):
+        self.change("Android.bp", "system_shared_libs: []",
+                    'system_shared_libs: ["honor_npu_libmvpu_config_mtk"]')
+        self.rejected("system_shared_libs must remain empty")
+
+    def test_needed_check_distinguishes_shared_from_system_shared(self):
+        block = '    system_shared_libs: []\n    shared_libs: ["libc", "libm", "libdl"]'
+        with self.assertRaisesRegex(ValueError, "libbase.so"):
+            VERIFY.verify_needed_libraries(block, ["libbase.so"], {})
+
+    def test_needed_check_maps_private_provider_names(self):
+        block = '    system_shared_libs: []\n    shared_libs: ["honor_npu_libmvpu_config_mtk"]'
+        VERIFY.verify_needed_libraries(block, ["libmvpu_config.mtk.so"],
+                                      {"honor_npu_libmvpu_config_mtk": "libmvpu_config.mtk.so"})
+
     def test_incomplete_inventory(self):
         path = self.root / "npu-framework-blobs.json"
         path.write_text(json.dumps(json.loads(path.read_text())[:1]))
