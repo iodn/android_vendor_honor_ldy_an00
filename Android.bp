@@ -425,6 +425,7 @@ cc_prebuilt_library_shared {
     },
     check_elf_files: true,
     shared_libs: [
+        "aconfig_libgui_flags_c_lib",
         "libui",
         "libcutils",
         "libutils",
