@@ -1,0 +1,22 @@
+{
+  "firmware": "11.0.0.117(SP3C00E117R103P1)",
+  "scope": "Exact unmodified OEM provider and library for recovery only. Both files match the hardware-qualified 10.0.0.113 recovery inputs; the normal-boot provider is unchanged.",
+  "inputs": [
+    {
+      "source": "/vendor/bin/hw/android.hardware.boot-service.mtk",
+      "path": "recovery/blobs/vendor/bin/hw/android.hardware.boot-service.mtk",
+      "module": "honor_boot_control_recovery",
+      "recovery_destination": "/system/bin/hw/android.hardware.boot-service.mtk",
+      "size": 136200,
+      "sha256": "94626fa0ddad4fc757a957dca712ab93230f9cd0d6713c6c5373cde055111396"
+    },
+    {
+      "source": "/vendor/lib64/libmtk_bsg.so",
+      "path": "recovery/blobs/vendor/lib64/libmtk_bsg.so",
+      "module": "honor_libmtk_bsg_recovery",
+      "recovery_destination": "/system/lib64/libmtk_bsg.so",
+      "size": 125936,
+      "sha256": "2e3461aad2651efe7ae05b922f472d157e5261dc0376af60b4d3df582b94a28f"
+    }
+  ]
+}

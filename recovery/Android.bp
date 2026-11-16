@@ -1,0 +1,55 @@
+// Exact OEM boot control provider, installed only in the recovery ramdisk.
+cc_prebuilt_binary {
+    name: "honor_boot_control_recovery",
+    stem: "android.hardware.boot-service.mtk",
+    recovery: true,
+    relative_install_path: "hw",
+    compile_multilib: "64",
+    srcs: ["blobs/vendor/bin/hw/android.hardware.boot-service.mtk"],
+    init_rc: ["android.hardware.boot-service.mtk.recovery.rc"],
+    vintf_fragment_modules: ["honor_boot_control_recovery_manifest"],
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    system_shared_libs: [],
+    shared_libs: [
+        "libbase",
+        "libbinder_ndk",
+        "liblog",
+        "libutils",
+        "honor_libmtk_bsg_recovery",
+        "android.hardware.boot@1.1",
+        "android.hardware.boot-V1-ndk",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "honor_libmtk_bsg_recovery",
+    stem: "libmtk_bsg",
+    recovery: true,
+    compile_multilib: "64",
+    srcs: ["blobs/vendor/lib64/libmtk_bsg.so"],
+    strip: {
+        none: true,
+    },
+    check_elf_files: true,
+    system_shared_libs: [],
+    shared_libs: [
+        "liblog",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+}
+
+vintf_fragment {
+    name: "honor_boot_control_recovery_manifest",
+    recovery: true,
+    src: "android.hardware.boot-service.mtk.recovery.xml",
+}

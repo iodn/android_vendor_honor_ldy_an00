@@ -2,7 +2,7 @@
 
 Vendor build definitions and proprietary-input inventories for unofficial
 LineageOS 24.0 / Android 17. Android source path: `vendor/honor/ldy_an00`.
-Branch: `lineage-24.0`. Tested input baseline: `10.0.0.113(C00E100R101P1)`. Matching inputs are required.
+Branch: `main`. Tested input baseline: `10.0.0.113(C00E100R101P1)`. Matching inputs are required.
 
 ## Getting started
 
@@ -23,6 +23,20 @@ python3 tools/verify_audio_sws_inputs.py
 The generator verifies all inputs and the resulting tuning bundle.
 `audio-sws-framework.mk` defines the optional engine and tuning packages;
 framework processing is controlled separately.
+
+## Recovery inputs
+
+Before configuring either Android or standalone Recovery, stage the two pinned
+boot-control files from the matching extracted stock vendor partition:
+
+~~~sh
+python3 tools/prepare_recovery.py --vendor-root /path/to/vendor
+python3 tools/prepare_recovery.py --check
+python3 -m unittest discover -s tools -p 'test_recovery_inputs.py'
+~~~
+
+The blobs remain excluded from Git. Soong checks their paths for both products;
+only Recovery installs them. The normal Android provider is unchanged.
 
 ## GPU and AI inputs
 
